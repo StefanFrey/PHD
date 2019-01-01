@@ -1,0 +1,100 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: memoirthesis.aux
+The style file: siam.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "slasoi2011" isn't style-file defined
+--line 425 of file Bibliography.bib
+Warning--entry type for "slasoisrc" isn't style-file defined
+--line 434 of file Bibliography.bib
+Warning--entry type for "slasoiwiki" isn't style-file defined
+--line 443 of file Bibliography.bib
+Warning--entry type for "ASLAMaaS" isn't style-file defined
+--line 462 of file Bibliography.bib
+Warning--entry type for "Gartner" isn't style-file defined
+--line 513 of file Bibliography.bib
+Warning--entry type for "rackspace15" isn't style-file defined
+--line 521 of file Bibliography.bib
+Warning--entry type for "icloud" isn't style-file defined
+--line 529 of file Bibliography.bib
+Warning--entry type for "crisp" isn't style-file defined
+--line 537 of file Bibliography.bib
+Warning--entry type for "EC2SLA" isn't style-file defined
+--line 545 of file Bibliography.bib
+Warning--entry type for "CloudSLAwhite" isn't style-file defined
+--line 553 of file Bibliography.bib
+You're missing a field name---line 878 of file Bibliography.bib
+ : 
+ : %% Author = {Contabo},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Folding@Home"
+Warning--I didn't find a database entry for "ATLAS@Home"
+Warning--I didn't find a database entry for "Einstein@Home"
+Warning--I didn't find a database entry for "Lambea2011"
+Warning--I didn't find a database entry for "MemBrain"
+Warning--I didn't find a database entry for "GartnerAPM"
+Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
+while executing---line 991 of file siam.bst
+Name 1 in "T. Mather, S. Kumaraswamy, and S. Latif" has a comma at the end for entry CloudSec
+while executing---line 991 of file siam.bst
+Warning--to sort, need author or key in Contabo
+Warning--to sort, need author or key in slasoi2011
+Warning--to sort, need editor, organization, or key in DBLP:conf/mascots/2000
+Warning--to sort, need author or key in slasoiwiki
+Warning--to sort, need author or key in slasoisrc
+Warning--empty title in EC2
+Warning--empty booktitle in EC2
+Warning--empty publisher in EC2
+Warning--empty title in ISOnew
+Warning--empty booktitle in ISOnew
+Warning--empty publisher in ISOnew
+Warning--empty year in Fuzzy
+Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
+while executing---line 1034 of file siam.bst
+Warning--can't use both author and editor fields in Wieder2011
+Warning--empty journal in horn2001autonomic
+Name 1 in "T. Mather, S. Kumaraswamy, and S. Latif" has a comma at the end for entry CloudSec
+while executing---line 1034 of file siam.bst
+You've used 122 entries,
+            2030 wiz_defined-function locations,
+            1161 strings with 22837 characters,
+and the built_in function-call counts, 36646 in all, are:
+= -- 3300
+> -- 1550
+< -- 1
++ -- 637
+- -- 501
+* -- 2537
+:= -- 5682
+add.period$ -- 168
+call.type$ -- 122
+change.case$ -- 576
+chr.to.int$ -- 0
+cite$ -- 136
+duplicate$ -- 1718
+empty$ -- 3159
+format.name$ -- 501
+if$ -- 7898
+int.to.chr$ -- 0
+int.to.str$ -- 122
+missing$ -- 96
+newline$ -- 415
+num.names$ -- 233
+pop$ -- 887
+preamble$ -- 1
+purify$ -- 495
+quote$ -- 0
+skip$ -- 1322
+stack$ -- 0
+substring$ -- 2002
+swap$ -- 581
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 445
+warning$ -- 14
+while$ -- 351
+width$ -- 125
+write$ -- 1070
+(There were 5 error messages)

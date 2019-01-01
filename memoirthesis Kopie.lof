@@ -1,0 +1,64 @@
+\babel@toc {english}{}
+\par \penalty \@M \textbf {{\scshape Figure} \hfill Page}\par \penalty \@M 
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Evolution of Cloud Computing from \cite [p.4]{CloudSec}}}{7}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Hype Cycle Phases}}{8}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Gartner Group Technology Hype Cycle 2014 \cite {Gartner}}}{8}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces NIST Cloud Computing Model cf. \cite {NIST}}}{9}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Cloud Pyramid of Flexibility and Management}}{10}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cloud Computing Reference Architecture from NIST \cite {NISTArch}}}{13}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces SLA Life Cycle}}{17}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces SLA Structure}}{19}{figure.2.8}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces QoS Fuzzy Control Architecture from \cite {fuzzyQoS} }}{29}{figure.3.1}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Autonomic Control Loop (MAPE-K) after \cite {kephart2003vision}}}{32}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Autonomic Computing Control Loop from \cite {MAPE-K}}}{34}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Information Flow between ASLAMaaS Modules}}{34}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ASLAMaaS Architecture Overview }}{35}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces ASLAMaaS SLA Manager MAPE-K Loop }}{36}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ASLAMaaS QoS Manager MAPE-K Loop }}{36}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces ASLAMaaS SLA Management Frontend Overview}}{37}{figure.4.7}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ganglia Cluster Overview}}{41}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Cluster Load Aggregation}}{42}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces First GUI Mockup}}{43}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Final GUI}}{43}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces SLA Violation Report}}{44}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Model Based Development of SLO-A}}{44}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Overview of SLO-A Format}}{45}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Example of References within SLO-A}}{45}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Overview of SLA Template, a modified and extended SLA(T) model \cite {Lambea2011}}}{47}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Overview of Agreement Terms}}{48}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Pricing Business Term Classes}}{50}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Business Level Guaranteed Action Classes}}{51}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces serviceTime adjustment by the customer}}{53}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Service Offering for CPUs}}{54}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces }}{55}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Fuzzy Controlled Scaling Architecture}}{55}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Example: Weekly Load of the HFU Learning Management Platform}}{56}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Input Fuzzy Set for Load Deviation}}{57}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Simulator Module Diagram}}{59}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Load Graph}}{60}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Conventional Rule Set Results}}{60}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Fuzzy \& "High" Prediction Results}}{61}{figure.5.22}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Fuzzy \& "High" Prediction \& Slope Results}}{61}{figure.5.23}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Simple 3-tier Feedforward Multilayer Perceptron.}}{62}{figure.5.24}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Feedforward Multilayer Perceptron Architecture.}}{62}{figure.5.25}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Simulation Architecture.}}{64}{figure.5.26}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces IF THEN rules for threshold system.}}{65}{figure.5.27}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Storage allocation results for threshold rules.}}{66}{figure.5.28}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Storage allocation results for NN.}}{67}{figure.5.29}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces NN Scenario 1: 0s-100s}}{68}{figure.5.30}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces NN Scenario 1: 0s-20ss}}{69}{figure.5.31}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces SVM Scenario 1: 0s-100s}}{69}{figure.5.32}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces SVM Scenario 1: 0s-20ss}}{69}{figure.5.33}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces SVM Scenario 1: 0s-100s}}{70}{figure.5.34}
+\contentsline {figure}{\numberline {5.35}{\ignorespaces SVM Scenario 1: 0s-20ss}}{70}{figure.5.35}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces ASLAMaaS Timeline}}{83}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Research Project Plan}}{84}{figure.B.2}

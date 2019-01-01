@@ -1,0 +1,46 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.12)  5 NOV 2017 23:58
+entering extended mode
+**"C:/Program Files/MiKTeX 2.9/tex/latex/wordcount/wordcount.tex"
+("C:/Program Files/MiKTeX 2.9/tex/latex/wordcount/wordcount.tex"
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+File: wordcount.tex 2016/06/03 v1.7 Michael Downes
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+\thickmuskip=\muskip10
+\@charfontname=\skip41
+\hfuzz=\dimen102
+
+No auxiliary output files.
+
+
+The 'wordcount' utility provides a way of estimating the number of
+words in a LaTeX document.
+
+[Warning: The counting method uses a large log file as an intermediate
+step. If your disk space is extremely low the counting process
+may end prematurely for lack of space.]
+
+File name [press RETURN to cancel]: 
+! Emergency stop.
+<read *> 
+         
+l.173 \do
+         
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 236 strings out of 493323
+ 1981 string characters out of 3139051
+ 53648 words of memory out of 3000000
+ 3866 multiletter control sequences out of 15000+200000
+ 6053 words of font info for 16 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 21i,0n,17p,170b,37s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
