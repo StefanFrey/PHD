@@ -1,0 +1,58 @@
+% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+\label{Introduction} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+The following chapter starts with the motivation, why the autonomic management of service level agreements in cloud computing is a demanded capability (Section 1.1). Afterwards the limitations and shortcomings of the current cloud computing landscape, as well as the aim and objectives of this thesis are summarized (Section 1.2). Finally the structure is outlined (Section 1.3) and the research grant under which this study has been conducted is stated (Section 1.4).  
+
+\section{Motivation}
+Cloud computing has been one of the major trending topics of recent years in the Information Technology (IT) industry, and at the latest by the occurrences of the "iCloud Leak" incident in late 2014\cite{icloud}, the term cloud will have arrived in the mind of the general public. In contrary to the older IT service delivery models, where all the services and resources where hosted locally, the idea behind cloud computing is to deliver computing resources or services on-demand over a network on an easy pay-per-use business model\cite{NIST}. This paradigm change included almost all areas of the modern IT landscape, be it the storage and sharing of data for example with services like Dropbox\cite{Dropbox}, Microsoft OneDrive\cite{OneDrive} or Google Drive\cite{GoogleDrive}, or complete computational environments like Amazon Web Services\cite{AWS} or the Microsoft Azure Cloud Platform\cite{Azure}. Nearly anything today is capable of being transferred to the cloud. As a result,  the investment costs for IT infrastructures or services can be lowered, since it is now obtained from a cloud provider and not bought or provided by the user himself. At the same time modern cloud providers posses an almost inexhaustible amount of computing resources pooled for their customers, so that nearly all requested amounts of resources can be provided within minutes.  Due to the lower upfront costs, rapid provisioning, elasticity and scalability, the adoption of cloud services is steadily increasing \cite{IDC}. Thereby cloud computing nowadays for many companies has become a practical alternative to locally hosted resources and IT services. According to the analyst view of the Crisp Research AG\cite{crisp}, the overall cloud spendings of Germany will rise from an estimated 10,9 billion Euro in 2015 to approximately 28,4 billion in the next three years. This can be interpreted as a clear trend towards the cloud business. 
+
+However, in the current offered state of cloud computing, there are significant shortcomings in regard to guarantees and the quality of offered services. But such guarantees for bough services are desperately needed, especially by enterprises, to make could computing  effectively usable\cite{DMTF2010} and reliable\cite{JTC}. 
+For this purpose so-called Service Level Agreements (SLA) are needed, which state the precise level of performance, as well as the manner and the scope of the service provided. This practice, which is widespread in the area of IT services, is currently of limited use for cloud computing, due to the fact that existing cloud environments offer only rudimentary support and handling of SLAs, if any. And therefore most providers do not offering any kind of SLA or just generic versions of standardized guarantees, such as availability or service \& and helpdesk. For example Amazon Web Services\cite{AWS}, as one of the biggest players in cloud services only gives an availabitliy guarantees for their Elastic Compute Cloud (EC2)\cite{EC2SLA}, which is simply stated as if the achieved monthly availability is below 99.95\% the the customer will be given back 10\% of the monthly fee in service credits. Additionally up to 30\% of the monthly fee will be credited if the falls below availability is below 99.0\%. There are no further performance or quality guarantees given so far. This means that without even having to pay credits back the EC2 cloud service can be down for 21.56 minutes every month plus maintenance. This for of SLAs  is widespread in the current cloud computing landscape\cite{CloudSLAwhite} \cite{Baset:2012:CSP:2331576.2331586} and does not offer any sufficient protection for the customer. In addition, practically unusable services, due to poor performance are not even taken into account. Apart from this is the compensation through service credits is in not proportion to the expected actual financial damage that a company can suffer due to poor availability, which can render this whole SLA meaningless\cite{meaning}. Cloud users should be given the opportunity to configure related services according to their needs and to obtain customized guarantees. So that users in need can protect particularly important services. This means that cloud providers firstly must be able to provide the functionality of custom SLAs and be able to guarantee the corresponding quality of service parameters and demand a compensation. The following section states the aimes and objectives of this thesis, by analysis of the current state of the research and cloud computing environment in order to enable service level management  in cloud computing.
+
+
+\section{Aim \& Objectives}
+Literature review on related work in the area of cloud computing guarantees, quality of service  and Service Level Agreements shows, that the following limitations exist:
+
+The classic SLA management approach is a rather static method, whereas due to the dynamic character of the cloud, the QoS attributes respectively service levels must be monitored and managed continuously\cite{Ludwig03WSLA}.
+
+Performance indicators\cite{5557978} and measurement methods for service level objectives in cloud computing have been studied inadequately\cite{Wieder2011}.
+
+The purpose of the presented research has been to investigate the integration of SLAs into cloud computing environments to promote their reliability, transparency, trust and mitigate business concerns. Therefore cloud specific performance indicators, in dependence of cloud attributes such as, on-demand availability, elasticity of cloud resources and deployability were identified. Following, an investigation of traditional SLA managment and its integration into the cloud shows how there is need for changes. To solve the identified problems an autonomic management of SLAs for cloud environments has been proposed.
+
+%SLA violations can happen especially due to sudden peak demands, caused by several different kinds of reasons (e.g. product launches, political statements, service advertisement, weather changes, etc.), or the scaling delay of the infras- tructure (e.g. VM start time, LB reconfiguration). A nice example for a so called “flash crowd” can be seen in Figure ??. It shows the traffic load of the web server cluster during the world cup 1998 that started at 10th of June 1998. One of the peak loads was 8th of July (see arrow) during the semi final between Germany and Holland [?], that an football expert could easily have predicted.
+
+% Cloud provider need to offer Service Level Objectives specified in SLAs individually for their customers. Cloud provider like Amazon can not afford to negotiate individual SLAs manually. Therefore, it becomes important to develop a format for machine-readable SLAs which can easily adapt to the individual Service Level Objectives requested by the customer any time. Because of its adaptability at run time by each individual customer on demand, this comply with the characteristics of Cloud Computing and to satisfies the customer’s requirements to be flexible.
+
+\section{Outline}
+The remainder of this manuscript is structured as follows. 
+
+\textbf{Chapter 2} gives some background information of this study, starting with cloud computing its history,  definitions and a reference architecture to build a common knowledge base. Furthermore the foundations of Service Level Agreements, the proces of SLA management as well as the guidelines on the content and preconditions will be given and the SLA lifcycle will be introduced. Additionally the autonomic computing paradigm is introduced and discussed.\\
+
+\textbf{Chapter 3} follows up on Service Level Agreements, by illustrating the current cloud computing SLA landscape and introducing cloud specific key performance indicators as basis for cloud service SLAs. Furthermore will the monitoring of cloud quality of service parameters and the controls and management will be elaborated.\\
+
+\textbf{Chapter 4}  describes the presented approach for autonomic SLA management in cloud computing, starting wiht the introduction of the architecture and its modules. Subsequently the workflow from SLA creation to SLA monitoring and execution is illustrated to demonstrate the application of the autonomic SLA management.\\
+
+
+\textbf{Chapter 5 }- Implementation and Evaluations describes the developed prototype and its components. The Chapter follows the structure of the main research phases and presents the three consecutive development stages of the prototype:
+\begin{itemize}
+\item  Stage 1 - "ASLAMaaS Front-end" - The graphical user interface to build Cloud SLAs and exported in the machine readable A-SLO-A language.
+ \item Stage 2 - KPI respectively SLA monitoring and enforcement with various management and prediction techniques.
+ \item Stage 3 - Cloud Simulator integration for evaluation and proof of concept. 
+ \item Stage 4 - Holistic SLA management based on provider prioritisation.
+\end{itemize}
+ Each section ends with a demonstration of its specific part of the development stage and a evaluation based on three scenarios is given in the end .\\
+
+\textbf{Chapter 6} presents the related work, which is divided into 5 categories: Infrastructure Measurements and Cloud Monitoring, SLA Description Languages, Performance Prediction, SLA Enforcement, and Scheduling Mechanisms. The related works of each section is analysed and distinctions to the contributions in this thesis a drawn.
+
+\textbf{Chapter 7} summarized the presented work and shows the  limitations of the proposed solutions. Afterwards the lessons learned during this study and possible future work arising from the research contributions of this thesis is described.\\
+
+The Appendix shows the contributed research activities accompanying thesis with the published papers and reports. \\
+
+Nomenclature
+Within this thesis technical and legal terms are introduced at their first appearance. Additionally  a collection of the most important ones are listed in Section XXXXXXXXXX 
+The terms cloud user, cloud consumer and cloud customer are used synonymously throughout this work.
+
+
+\section{Research Grant}
+The research topic "Autonomic SLA Management as a Service (ASLAMaaS)" presented in this report, is supported by a research grant from the German Federal Ministry of Education and Research (BMBF) within the FHprofUnt2012 program. The grant is issued for the period of three years, starting October 2012 and is referenced under the grant number 03FH046PX2.\cite{ASLAMaaS}

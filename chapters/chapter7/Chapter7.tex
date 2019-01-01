@@ -1,0 +1,39 @@
+% Chapter 7
+
+\chapter{Conclusion and Future Work} % Main chapter title
+
+\label{Conclusion} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+
+\section{Summary}
+This thesis addressed the problem of managing service execution in cloud infrastructures while meeting SLA constraints. SLA management functionalities are proposed which handle service instantiation, provisioning and termination in an autonomous fashion. In addition, the thesis employs further management actions and prediction algorithms in order to increase the profit by reducing infrastructure costs and preventing SLA violations.
+
+\textbf{SLAs and KPIs} The current Cloud SLA landscape and developments towards SLA for cloud services have been presented. The general SLA management process and its adoption to the cloud computing model has bee presented. For this thesis a special SLA creation process has been implemented and it's SLO-A format has been presented, thus making it possible to write legally binding contracts in a machine readable way. Allowing customers of cloud services to specify exactly which service level they booked for their cloud service and where, how and when to check it.
+
+\textbf{SLA Automation}
+
+\textbf{SLA Compliance Mangement}
+
+\textbf{Resource Acquisition and Allocation} 
+This thesis includes initial proposals for resource acquisition and allocation. Based on scheduling procedures, the required resources are used as efficiently as possible and additional resources are provided in the event of a SLA violation. In order to increase the provider profit, this thesis has shown how packing algorithms can generate resource utilization close to potential optimum. In addition, it was considered that in a future version contracts with lower priorities or penalties would be exchanged for contracts with high priorities / penalties as soon as the required resources can no longer be provided to keep the penalties as low as possible.
+
+
+
+\section{Lessons Learned}
+While working on this thesis some interesting insights were gained via the experimental implementations. As shown by the fuzzy approach, even small improvements in resource allocation of cloud system can result in great improvements in service level compliance. Although the machine learning approaches can improve these results, it still remains questionable whether the extra effort justifies the result. Especially in the case of time-critical real-time systems, due to the fast reaction time of the system, prediction must be viewed critically. During my extensive work with cloud systems, it has been shown that simpler, but easy-to-use solutions are particularly more often chosen in corporate environments, but this does not reduce the interest in cutting edge solutions. Especially in the cooperation during the research project and the industry, it was repeatedly shown how important an accurate and legally correct description of SLAs and KPIs is. Through the resulting catalog of directives, we were able to return this knowledge back to practical application. The research on this work and the possibility of carrying out tests and measurements in a real environment and then working with the industry revealed several interesting insights. In fact, my work clearly showed that in contrast to developmental environments in the real world outages or SLA violations, things can happen much more frequently because of things that can not be steered directly through an automatism. Worse still, in today's complex multi-cloud environments, both internal and external factors play a big role on which one may not always be able to influence.
+
+
+
+\section{Future Work}
+\textbf{Scalability }
+The current implementation of the ASLAMaaS framework does not aim at scalability. Expanding the system with external cloud services such as Amazon EC2 or the Alibaba Cloud could enable the overall system to respond even more dynamically to the load of users. Both the acquisition of resources and the associated integration would have to be automated, as well as the dynamic management or precautionary planning of resources. For example, Amazon offers cheaper resources if they are booked in advance for a foreseeable period of time, which in turn can have a positive impact on costs. These extensions would extend the existing system by a further dimension in the planning and enable much greater dynamics. Simultaneously the move from one single resource provider and therefore only horizontal elasticity as means for improving performance, to an multi cloud environment with various elasticity in horizontal and vertical order as well as global distribution of resources. Exploiting this additional elasticity allows implementing further QoS assurance mechanisms. Regarding multi cloud environments, future work may consider checking prices and negotiating contracts with them to improve costs. In addition this would allow overcoming resource shortages and the utilization of cheaper resources.
+
+\textbf{On-The-Fly Profiling} The profiling mechanism implemented profiles the service provider before provisioning. However, profiling data during provisioning is useful for calibrating  according to unpredicted environment changes, e.g., network throughput degradation and unusual customer demands. An improvement to this issue is enabling to update the provider profiling while treating customer requests. 
+
+\textbf{Renegotiation} The SLA contracts considered in this work can be more flexible by including renegotiation (alteration) of established contracts. Supporting renegotiation would allow adapting the service provisioning to environment changes without violating SLAs. 
+
+\textbf{Improved machine learning algorithms} The field of machine learning has grown in the last time very rapidly. This may results in new technologies that improve the use of machine learning algorithms and make them more efficient. The expansion of the ML approaches could lead to future work being able to generate on the fly predictions about the state and the future use of the system not only more accurately but also much faster. As a result, the possibility of countering possible SLA violations already arises and thus achieving even higher SLA compliance. Especially the area tensor flow could be interesting here.
+
+
+
+%----------------------------------------------------------------------------------------
