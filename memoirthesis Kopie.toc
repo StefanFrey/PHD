@@ -84,12 +84,12 @@
 \contentsline {section}{\numberline {6.6}Autonomic Computing}{77}{section.6.6}
 \contentsline {chapter}{\chapternumberline {7}Conclusion and Future Work}{79}{chapter.7}
 \contentsline {section}{\numberline {7.1}Summary}{79}{section.7.1}
-\contentsline {section}{\numberline {7.2}Lessons Learned}{79}{section.7.2}
-\contentsline {section}{\numberline {7.3}Future Work}{79}{section.7.3}
-\contentsline {appendix}{\chapternumberline {A}Published Papers \& Outputs}{81}{appendix.A}
-\contentsline {paragraph}{Conference Papers}{81}{section*.17}
-\contentsline {paragraph}{Research Reports}{82}{section*.18}
-\contentsline {appendix}{\chapternumberline {B}Project Plans}{83}{appendix.B}
-\contentsline {section}{\numberline {B.1}RDC.1 Projekt Plan}{83}{section.B.1}
-\contentsline {section}{\numberline {B.2}Research Plan}{84}{section.B.2}
-\contentsline {chapter}{Bibliography}{85}{appendix*.19}
+\contentsline {section}{\numberline {7.2}Lessons Learned}{80}{section.7.2}
+\contentsline {section}{\numberline {7.3}Future Work}{81}{section.7.3}
+\contentsline {appendix}{\chapternumberline {A}Published Papers \& Outputs}{83}{appendix.A}
+\contentsline {paragraph}{Conference Papers}{83}{section*.17}
+\contentsline {paragraph}{Research Reports}{84}{section*.18}
+\contentsline {appendix}{\chapternumberline {B}Project Plans}{85}{appendix.B}
+\contentsline {section}{\numberline {B.1}RDC.1 Projekt Plan}{85}{section.B.1}
+\contentsline {section}{\numberline {B.2}Research Plan}{86}{section.B.2}
+\contentsline {chapter}{Bibliography}{87}{appendix*.19}
