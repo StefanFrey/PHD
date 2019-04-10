@@ -2,6 +2,7 @@
 
 \chapter{Implementation and Evaluation} % Main chapter title
 \label{Evaluation} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+This chapter discusses the individual components and the resulting test evaluation.
 
 \section{SLA Frontend}
 
@@ -249,7 +250,7 @@ Fuzzy logic allows to model imprecise information by the user in the form of non
 \subsubsection{Fuzzy Controled Scaling Architecture}\label{fuzzyScalingArchtecture}
 Figure \ref{fig:fuzzy_control_architecture} shows the architecture for a load balanced service by automatically scaling up/down the infrastructure by provisioning/deprovisioning VMs. It consists of two new modules compared to the traditional scaling infrastructure (blue box), the \textit{Data Collector} and the \textit{Fuzzy Control Module}.
 
-The \textit{Data Collector} collects all information data, crisp (e.g. cpu usage) and imprecise data (e.g. weather). The data is categorized in infrastructure data (e.g. req./resp. time), history data (e.g. req./resp. time 5 minutes ago), control action (e.g. aggressive up/down scale), environment data (e.g. daytime), and other information that might influence the load of the service. % Some of the data is automatically monitored, like the infrastructure data, some is computed like the history data, and some is determined by users/experts like control action or environment data. 
+The \textit{Data Collector} collects all information data, crisp (e.g. cpu usage) and imprecise data (e.g. weather). The data is categorized in infrastructure data (e.g. req./resp. time), history data (e.g. req./resp. time 5 minutes ago), control action (e.g. aggressive up/down scale), environment data (e.g. daytime), and other information that might influence the load of the service.  Some of the data is automatically monitored, like the infrastructure data, some is computed like the history data, and some is determined by users/experts like control action or environment data. 
 All collected data is input data to the \textit{Fuzzy Control Module}, where the data is fuzzified, results are propagated by the fuzzy inference engine and quantified by defuzzification. The defuzzified value (Number of VM to be started or stopped) is put into the \textit{Scale Control} module, which generates XML-RPC calls to the \textit{Cloud Management System}.
 
 \subsubsection{Collected Information Factors for the Fuzzy Control}\label{fuzzyParameters}
@@ -555,8 +556,12 @@ It can be concluded that with the presented approach it is clear that more resou
 To improve the output of the QoS Management Module, different machine learning algorithms were used to test the feasibility of the approach. Firstly a general Artificial Neural Network was used to predict different environmental KPIs. Afterwards an investigation and comparison of Support Vector Machines, Artificial Neural Network, and general Linear Regression was conducted.
 
 \subsubsection{Artificial Neural Network}
+<<<<<<< HEAD
 %hier noch überleitung
 The aim of this first approach  was to create a prototype application which enables efficient provisioning of cloud storage resources with the use of Artificial Neural Networks to achieve better compliance with SLAs. The most common type of ANNs used for forecasting is the feed-forward multilayer perceptron (ffMLP), as seen in Figure \ref{fig:Netz}. 
+=======
+Artificial neural networks, in short: ANN, are networks of artificial neurons which aims to simulate the process inside the human brain and represent a branch of artificial intelligence. Artificial neural networks have been successfully used in the past with all sorts of optimization problems, which makes them a suitabel approach for our solution. The aim of this first approach  was to create a prototype application which enables efficient provisioning of cloud storage resources with the use of Artificial Neural Networks to achieve better compliance with SLAs. The most common type of ANNs used for forecasting is the feedforward multilayer perceptron (ffMLP), as seen in Figure \ref{fig:Netz}. 
+>>>>>>> f2b6e9925dd900f7fe283a6949be98ab35e3fd0f
 
 \begin{figure}[ht]
 	\begin{center}
@@ -739,8 +744,6 @@ However, when comparing the number of SLA violations, it becomes clear that the 
 
 
 
-\subsubsection{Support Vector Machines}\label{LR}
-
 
 
 
@@ -843,19 +846,16 @@ The third and final scenario is a mixture of the two previous ones. First, a sin
 While it was shown that all 3 algorithms can be effectively used for predicting the response time in different scenarios it can be said that the NN has a minor advantage over the other algorithms. The main reason is that the NN, in general, slightly overestimates and almost never underestimates the response time. The practical application of this knowledge, e.g., using those predictions in combination with a scaler who manages the quantity of VMs leads to a more assuring state that requirements like defined SLAs can be covered more carefully than with other algorithms. In less critical business cases, where the defined SLAs and response times are not that sensitive, the other 2 algorithms, SVMs and Linear Regression, can be used despite their tendency to slightly underestimate response times. Especially the Linear Regression with its fast training and deployment times could be considered in near real-time scenarios.
 
 
-
-
-
-
-
 %\section{Simulator}
 %\subsection*{Requestgenerator \& Load Balancing}
 %\subsection*{Cloud SIM}
 %\subsection*{Log \& Reporting}
 
 \section{Holistic SLA Management}
+As  described in the previous sections, the quality, respectivly the KPIs of a service can be improved by the described methods. However, it is not enough to concentrate merley on the quality of the individual services, since in modern cloud landscapes, disruptions, failures or performance issues can occur. This requires a holistic approach, where the management of the individual service quality and the overall management of the cloud in brought together. For example, in a general cloud landscape it is quite possible that the individual services are scaled and managed almost optimally by the algorithms described above, but the overall performance of the landscape is the limitating factor. This is where the holistic SLA management comes to bear. Here, not only on each service as a single is respected but also the overall situation of the landscape is taken care of. For example, in an cloud enviornment where the performance is adversely affected by an infrastructure problem, this may mean that certain services are sacrificed in favor of other services. In particular, the contractual penalties and categorization of the customer regulated by the SLAs play an overriding role.
 
 
+\subsection{Instance Sheduling with Genetic Algorithm}
 
 \section{Results and Evaluation}
 
