@@ -396,22 +396,26 @@
 %
 %
 % And the appendix goes here
-\appendix
-\import{chapters/appendices/}{app0A.tex}
-\clearemptydoublepage
-\import{chapters/appendices/}{app0B.tex}
-\clearemptydoublepage
+%\appendix
+%\import{chapters/appendices/}{app0A.tex}
+%\clearemptydoublepage
+%\import{chapters/appendices/}{app0B.tex}
+%\clearemptydoublepage
 %
 % Apparently the guidelines don't say anything about citations or
 % bibliography styles so I guess we can use anything.
 \backmatter
 \bibliographystyle{siam}
 %\refstepcounter{chapter}
-\bibliography{Bibliography}
+\bibliography{Bibliography.bib}
 
 \clearemptydoublepage
 %
 % Add index
 %\printindex
 %   
+%\clearemptydoublepage
+\import{chapters/appendices/}{app0A.tex}
+\clearemptydoublepage
+
 \end{document}
