@@ -1,0 +1,60 @@
+\BOOKMARK [0][-]{section*.5}{List of Tables}{}% 1
+\BOOKMARK [0][-]{section*.6}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Aim \046 Objectives}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Outline}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Research Grant}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Cloud Computing \046 Service Level Agreements}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Cloud Computing}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{History of Cloud Computing}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Cloud Computing Definition}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.3}{Cloud Models}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.4}{Reference Architecture}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.5}{Cloud Computing Advantages and Disadvantages}{section.2.1}% 14
+\BOOKMARK [1][-]{section.2.2}{Service Level Agreements}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.1}{SLA Life Cycle}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{SLA Content}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.3}{Service Level Objectives}{section.2.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Summary}{chapter.2}% 19
+\BOOKMARK [0][-]{chapter.3}{SLA Management and the Cloud}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Current Cloud SLA Landscape}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{KPIs for Cloud Services}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{General Service KPIs }{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{Service Specific KPIs }{section.3.2}% 24
+\BOOKMARK [1][-]{section.3.3}{QoS Control in the Cloud}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.4}{Summary}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Autonomic Cloud Computing SLA Management Approach}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Autonomic Computing}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Autonomic SLA Management Architecture}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{SLA Creation Process}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{Prediction, Detection and Management of Service Levels}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Evaluation of ASLAMaaS}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Implementation and Evaluation}{}% 34
+\BOOKMARK [1][-]{section.5.1}{SLA Frontend}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.1.1}{KPIs and Infrastructure Data}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.2}{GUI}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.3}{A-SLO-A}{section.5.1}% 38
+\BOOKMARK [1][-]{section.5.2}{QoS Management Modules}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.2.1}{Threshold Value System}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.2}{Machine Learning Algorithms}{section.5.2}% 41
+\BOOKMARK [1][-]{section.5.3}{Holistic SLA Management}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.3.1}{Instance Sheduling with Genetic Algorithm}{section.5.3}% 43
+\BOOKMARK [1][-]{section.5.4}{Results and Evaluation}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.4.1}{Scenario A}{section.5.4}% 45
+\BOOKMARK [2][-]{subsection.5.4.2}{Scenario B}{section.5.4}% 46
+\BOOKMARK [2][-]{subsection.5.4.3}{Scenario C}{section.5.4}% 47
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 48
+\BOOKMARK [1][-]{section.6.1}{Infrastructure Measurements and Cloud Monitoring}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.2}{SLA Description Languages}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.3}{Performance Prediction}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.4}{Scheduling Mechanisms}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.5}{SLA Enforcement}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.6}{Autonomic Computing}{chapter.6}% 54
+\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Work}{}% 55
+\BOOKMARK [1][-]{section.7.1}{Summary}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.2}{Lessons Learned}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.3}{Future Work}{chapter.7}% 58
+\BOOKMARK [0][-]{chapter*.17}{Bibliography}{}% 59
+\BOOKMARK [0][-]{chapter*.18}{Published Papers \046 Outputs}{}% 60
