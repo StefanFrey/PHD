@@ -35,17 +35,15 @@
 \usepackage{arydshln}
 \ifpdf
 \pdfinfo{
-   /Author (Stefan Frey)
+   /Author (Stefan Edwin Karl Frey)
    /Title (PhD Thesis)
    /Keywords (Cloud Computing; SLA; Management)
-   /CreationDate (D:\pdfdate)
 }
 \fi
 % When draft option is on. 
 \ifdraftdoc 
 	\usepackage{draftwatermark}				%Sets watermarks up.
 	\SetWatermarkScale{0.3}
-	\SetWatermarkText{\bf Draft: \today}
 \fi
 %
 % Declare figure/table as a subfloat.
@@ -405,10 +403,14 @@
 % Apparently the guidelines don't say anything about citations or
 % bibliography styles so I guess we can use anything.
 \backmatter
-\bibliographystyle{siam}
-%\refstepcounter{chapter}
-\bibliography{Bibliography.bib}
+%\bibliographystyle{siam}
+%\bibliographystyle{ieeetr}
+\bibliographystyle{plain}
+%\bibliographystyle{acm}
 
+
+%\refstepcounter{chapter}
+\bibliography{BibNew.bib}
 \clearemptydoublepage
 %
 % Add index
