@@ -1,0 +1,114 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: memoirthesis Kopie.aux
+White space in argument---line 440 of file memoirthesis Kopie.aux
+ : \citation{[emeakaroha2010low]
+ :                               }
+I'm skipping whatever remains of this command
+White space in argument---line 455 of file memoirthesis Kopie.aux
+ : \citation{[fosii]
+ :                   }
+I'm skipping whatever remains of this command
+White space in argument---line 457 of file memoirthesis Kopie.aux
+ : \citation{[emeakaroha2010low]
+ :                               }
+I'm skipping whatever remains of this command
+The style file: plain.bst
+Database file #1: BibNew.bib
+Warning--I didn't find a database entry for "Lambea2011"
+Warning--I didn't find a database entry for "Folding@Home"
+Warning--I didn't find a database entry for "ATLAS@Home"
+Warning--I didn't find a database entry for "Einstein@Home"
+Warning--I didn't find a database entry for "MemBrain"
+Warning--I didn't find a database entry for "GartnerAPM"
+Name 1 in "T. Mather, S. Kumaraswamy, and S. Latif" has a comma at the end for entry CloudSec
+while executing---line 1049 of file plain.bst
+Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in slasoi2011
+Warning--to sort, need editor, organization, or key in DBLP:conf/mascots/2000
+Warning--to sort, need author or key in slasoiwiki
+Warning--to sort, need author or key in slasoisrc
+Warning--empty publisher in 5610586
+Warning--empty publisher in bankole2013predicting
+Warning--empty publisher in 6409059
+Warning--empty publisher in 5614035
+Warning--empty publisher in 5175897
+Warning--empty title in EC2
+Warning--empty booktitle in EC2
+Warning--empty publisher in EC2
+Warning--empty publisher in 5547150
+Warning--empty publisher in fei2005design
+Warning--empty publisher in 5557978
+Warning--empty title in ISOnew
+Warning--empty booktitle in ISOnew
+Warning--empty publisher in ISOnew
+Warning--empty year in Fuzzy
+Warning--empty publisher in fuzzyQoS
+Warning--empty publisher in gangadharan2007service
+Warning--empty publisher in 6212007
+Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in Wieder2011
+Warning--empty journal in horn2001autonomic
+Warning--empty publisher in hu2013kswsvr
+Warning--empty publisher in inproceedingshu2009
+Warning--empty publisher in imam2011neural
+Warning--empty publisher in 5739040
+Warning--empty publisher in 5463688
+Warning--empty publisher in li2014sla
+Warning--empty publisher in 6150077
+Warning--empty publisher in 6114435
+Warning--empty publisher in menasce2002load
+Warning--empty publisher in 6225938
+Warning--empty publisher in Patel2009ServiceLA
+Warning--empty publisher in prevost2011prediction
+Warning--empty publisher in sterritt2005autonomic
+Warning--empty publisher in sun2005role
+Name 1 in "T. Mather, S. Kumaraswamy, and S. Latif" has a comma at the end for entry CloudSec
+while executing---line 1090 of file plain.bst
+Warning--empty publisher in 6076508
+Warning--can't use both author and editor fields in 10.1007/978-3-642-22709-7_46
+Warning--empty publisher in zhao2009survey
+You've used 149 entries,
+            2118 wiz_defined-function locations,
+            1313 strings with 29471 characters,
+and the built_in function-call counts, 40531 in all, are:
+= -- 3650
+> -- 2070
+< -- 6
++ -- 844
+- -- 678
+* -- 2528
+:= -- 6913
+add.period$ -- 432
+call.type$ -- 149
+change.case$ -- 709
+chr.to.int$ -- 0
+cite$ -- 190
+duplicate$ -- 1518
+empty$ -- 3400
+format.name$ -- 678
+if$ -- 8377
+int.to.chr$ -- 0
+int.to.str$ -- 149
+missing$ -- 153
+newline$ -- 725
+num.names$ -- 290
+pop$ -- 1202
+preamble$ -- 1
+purify$ -- 637
+quote$ -- 0
+skip$ -- 1049
+stack$ -- 0
+substring$ -- 1531
+swap$ -- 165
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 483
+warning$ -- 41
+while$ -- 337
+width$ -- 152
+write$ -- 1468
+(There were 7 error messages)
