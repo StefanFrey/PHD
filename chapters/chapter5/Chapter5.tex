@@ -741,6 +741,23 @@ However, when comparing the number of SLA violations, it becomes clear that the 
 
 \subsubsection{Support Vector Machines}\label{SVM}
 
+\subsubsection{Linear Regression}\label{LReg}
+
+
+
+
+Support Vector Machines: Figure 3 shows a contrast
+to the NN algorithm. In the case of SVMs the first peak of
+each burst is underestimated. The following cooldown phase
+before the second peak of each burst is overestimated but
+an improvement over time can be seen, especially on the
+last burst. Figure 4 looks specifically at the first burst and
+a comparison to the NN 2 makes it clear that SVMs predict a
+more smooth curve. It should be kept in mind that it is realistic
+to assume that in real life there are scenarios with different
+requirements regarding the reaction to those predictions where
+this specific differences, smooth or rough, could be seen as
+either an advantage or disadvantage.
 
 
 
@@ -858,6 +875,36 @@ As  described in the previous sections, the quality, respectivly the KPIs of a s
 \subsection{Instance Sheduling with Genetic Algorithm}
 
 \section{Results and Evaluation}
+
+%While it was shown that all 3 algorithms can be effectively used for predicting the response time in different scenariosit can be said that the NN has a minor advantage over the other algorithms. The main reason is that the NN in general slightly overestimates and almost never underestimates the response time. The practical application of this knowledge, e.g. using those predictions in combination with a scaler who manages the quantity of VMs leads to a more assuring state that requirements like defined SLAs can be covered more carefully than with other algorithms. In less critical businesscases, where the defined SLAs and response times are not that sensitive, the other 2 algorithms, SVMs and Linear Regression, can be used despite their tendency to slightly underestimate response times. Especially the Linear Regression with its fast training and deployment times could be considered in near real-time scenarios.
+
+
+Similar research with respectively different focus has been conducted in the past for Neural Networks [5] [6], Support Vector Machines and deviations [7] [8] as well as for Linear Regression [9] [10]. This paper delineates itself from past research by taking a closer look at the specific characteristics of each algorithm and presenting the results in a visual way.
+
+[5] J. J. Prevost, K. Nagothu, B. Kelley, and M. Jamshidi, “Prediction of
+cloud data center networks loads using stochastic and neural models,”
+in System of Systems Engineering (SoSE), 2011 6th International Conference
+on, June 2011, pp. 276–281.
+[6] C.-C. Li and K. Wang, “An sla-aware load balancing scheme for cloud
+datacenters,” in Information Networking (ICOIN), 2014 International
+Conference on, Feb 2014, pp. 58–63.
+[7] R. Hu, J. Jiang, G. Liu, and L. Wang, “Kswsvr: A new load forecasting
+method for efficient resources provisioning in cloud,” in Services Computing
+(SCC), 2013 IEEE International Conference on, June 2013, pp.
+120–127.
+[8] A. Nikravesh, S. Ajila, and C.-H. Lung, “Towards an autonomic autoscaling
+prediction system for cloud resource provisioning,” in Software
+Engineering for Adaptive and Self-Managing Systems (SEAMS), 2015
+IEEE/ACM 10th International Symposium on, May 2015, pp. 35–45.
+[9] A. Bankole and S. Ajila, “Predicting cloud resource provisioning using
+machine learning techniques,” in Electrical and Computer Engineering
+(CCECE), 2013 26th Annual IEEE Canadian Conference on, May 2013,
+pp. 1–4.
+[10]M. Imam, S. Miskhat, R. Rahman, and M. Amin, “Neural network and
+regression based processor load prediction for efficient scaling of grid
+and cloud resources,” in Computer and Information Technology (ICCIT),
+2011 14th International Conference on, Dec 2011, pp. 333–338.
+
 
 \subsection{Scenario A}
 Request Response time SLA
