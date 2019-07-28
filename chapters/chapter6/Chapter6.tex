@@ -10,7 +10,23 @@ In recent years various academic and commercial Cloud monitoring solutions have 
 An additional topic especially in the area of PaaS is the application monitoring and application performance monitoring in the cloud.The definition of application performance management by Menasce \cite{menasce2002load}: APM is a collection of management processes used by organizations to ensure that the QoS of their e-business applications meets the business goals. So APM directly aims at the application lifecycle and management processes such as monitoring, resource management, performance-management, reporting and so on, of software systems. According to Gartner \cite{GartnerAPM} there are severall established big names in APM such as IBM, Oracle, BMC and so on, that are getting challenges by innovative start-ups such as AppDynamics or Dynatrace, and Correlsense. APM can be used as performance analysis and monitoring agents in SaaS and PaaS, and as such will be an topic for future work.
 
 
-\section{SLA Description Languages}
+\section{SLA Modeling and Description Languages}
+----
+SLA attributes and its criteria are investigated for cloud computing by Alhamad et al. \cite{5610586}. This study determined the individual SLA metrics for SaaS, PaaS and IaaS separately. Although specific metrics are presented based on their layer requirements, they never considered the SLAs relation and hierarchical nature of cloud computing. 
+
+Patel et al. \cite{Patel2009ServiceLA} proposed the WSLA framework for SLA enforcement in cloud computing while this structure already proposed for SOA by Keller and Ludwing \cite{Ludwig03WSLA}. This framework is not enough adapted for cloud needs. Cloud computing nature and requirements are totally different from SOA therefore SLA management systems cannot directly be brought from SOA. 
+
+Some other frameworks such as RESTful \cite{Kubert:2011:RIW:1967428.1967444}, SALmonADA \cite{6225938}, SLA@SOI \cite{slasoi2011} have put aside the hierarchical nature of cloud computing. They have directly applied the SLA structure in the cloud computing area from SOA and grid computing. 
+
+The SSV architecture proposed by Kertesz et al. \cite{5739040}which contracted the SLA between an individual service provider and consumer after the negotiation process. However, they did not consider the hierarchical relation of SLAs in the cloud environment. 
+
+Although a research by Undheim et al. \cite{6076508} attempted to deploy the on demand SLAs with QoS details on different levels, it followed the common SLA structure with stated shortcomings. 
+
+Different techniques of SLA negotiation including direct, broker and market based negotiations are investigated and compared by Grandits et al. [29] while they did not have enough attention to the related SLAs in negotiation process. So, the output of these techniques is the isolated agreed SLA. 
+
+
+-----
+
 NIST \cite{Liu2011} has also pointed out the necessity of SLAs, SLA management, definition of contracts, orientation of monitoring on Service Level Objects (SLOs) and how to enforce them. However a clear definition of a reference of a specific format is missing. This is also the case with the Internet Engineering Task Force (IETF) \cite{Khasnabish2010}. Besides these approaches of the companies and organisations there are further efforts to develop and to realize cloud management architectures and systems. A basic discussion can be found in the book from Wieder et.al. \cite{Wieder2011} mainly concerned about SLA definitions and negotiations.
 
 In 2003 IBM developed the Web Service Agreement Language (WSAL) \cite{Ludwig03WSLA} which is still available in the Version 1.0 that dates back to the same year. It has not been further developed since. WSAL focused on performance and availability metrics. It seriously lacks expression therefore it is not powerful enough. The required flexibility is also missing which is needed for dynamical changes at run time. It is closely connected to their XML schema and not very useful to determine conclusion.
@@ -37,21 +53,89 @@ Similar research with different focus has been conducted in the past for the use
 Most commonly found scheduling approaches for the Cloud, like proposed by Mao and Humphrey \cite{6114435} or Panda et al. \cite{PANDA2015176}, aim towards resource optimization based task scheduling. Therefore, cloud instances are regarded as computing tasks that have to be processed within certain resource constraints. However, this basic view is only suitable for cloud operations with already known tasks or performance requirements. In the real cloud environment, however, these are usually of no importance since cloud customers either do not know them or they are highly variable. The approach shown seems to have more applicability in grid computing.
 
 
-Haizea \cite{haizea2} is a resource manager or resource scheduler. Haizea  can manage a set of computers (typically a cluster), allowing users to request exclusive use of those resources described in a variety of terms, such as "I need 10 nodes, each with 1 GB of memory, right now" or "I need 4 nodes, each with 2 CPUs and 2GB of memory, from 2pm to 4pm tomorrow". Haizea provides reservation and deadline sensitive type of leases along with the traditional immediate and best effort policies \cite{haizea1} \cite{haizea3} \cite{haizea4}. Haizea uses simple allocation policies for deadline sensitive leases. It tries to find out a single slot of required time between startTime and endTime of the given lease which can allocate the requested resources. If it is unable to ﬁnd such a time slot, it rejects the lease. 
+Haizea \cite{haizea2} is a resource manager or resource scheduler. Haizea  can manage a set of computers (typically a cluster), allowing users to request exclusive use of those resources described in a variety of terms, such as "I need 10 nodes, each with 1 GB of memory, right now" or "I need 4 nodes, each with 2 CPUs and 2GB of memory, from 2pm to 4pm tomorrow". Haizea provides reservation and deadline sensitive type of leases along with the traditional immediate and best effort policies \cite{haizea1} \cite{haizea3} \cite{haizea4}. Haizea uses simple allocation policies for deadline sensitive leases. It tries to find out a single slot of required time between startTime and endTime of the given lease which can allocate the requested resources. If it is unable to ?nd such a time slot, it rejects the lease. 
 
 \section{SLA Enforcement}
-SLA@SOI
+
+
+
+
+Boniface et al. [3] discuss dynamic service provisioning using GRIA SLAs. The authors describe provisioning of services based on agreed SLAs and the management of the SLAs to avoid violations. Their approach is limited to Grid environments. Moreover, they do not detail how the low-level metric are monitored and mapped to high-level SLAs. 
+
+Comuzzi et al. \cite{5175897} define the process for SLA establishment adopted within the EU project SLA@SOI framework. The authors propose the architecture for monitoring SLAs considering two requirements introduced by SLA establishment: the availability of historical data for evaluating SLA offers and the assessment of the capability to monitor the terms in an SLA offer.
+
+
 SLAs-LoM2HiS framework
+The LoM2HiS framework comprises two core components, namely host monitor and run-time monitor. The former is responsible for monitoring low-level resource metrics, whereas the latter is responsible for metric mapping and SLA
+violation monitoring. In order to explain our mapping approach we consider
+the Service Level Objectives (SLOs) as shown in Table 1, including incoming
+bandwidth, outgoing bandwidth, storage, and availability.
+As shown in Figure 1, we distinguish between host monitor and run-time
+monitor. Resources are monitored by the host monitor using arbitrary monitoring tools such as Ganglia [27]. Resource metrics include downtime, uptime, and
+available storage. Based on the predefined mapping rules stored in a database,
+monitored metrics are periodically mapped to the SLA parameters. An example
+of an SLA parameter is service availability Av, (as shown in Table 1), which is
+calculated using the resource metrics downtime and uptime and is defined by
+the following the mapping rule: As described in a previous work [14], we implemented a highly scalable framework for mapping Low Level Resource Metrics to High Level SLA Parameters
+(LoM2HiS framework) facilitating the exchange of large numbers of messages.
+We designed and implemented a communication model based on the Java Messaging Service (JMS) API [21], which is a Java Message Oriented Middleware
+API for sending messages between two or more clients. We use Apache ActiveMQ
+as a JMS provider that manages sessions and queues.
+
+
+-----
+
+
+The LoM2HiS framework introduced by Emeakaroha et al. \cite{ [emeakaroha2010low] } as a part of FOSII \cite{fosii} infrastructure. They tried to map the low level metrics into high level SLA by their monitoring method but the common SLA is used and they followed the centralized monitoring system \cite{articleEmeakaroha2013}. The LoM2HiS monitoring framework is located in FoSII infrastructure which calculated the SLA attributes value based on the proposed metrics and formula \cite{articleEmeakaroha2013}. In this framework, the SLAs consist of attributes, metrics and formulas have to be located in a central repository.  Then, another monitoring system is used to measure the SLA validity. 
+
+---
+Another related work is DeSVi architecture by Emeakaroha et al. \cite{EMEAKAROHA20121017}, it is designed based on LoM2HiS \cite{5547150} framework which limited for only one data centre as an IaaS. 
+
+----
+The QoSMONaaS approach \cite{articleQoSMONaas} focused to the QoS monitoring as a service. Although this flexible approach is a third party SLA monitoring system, it still needs the external service for SLA validating.
+
+
+-----
+The violation reaction process is rarely discussed in the mentioned SLA monitoring frameworks.  The most of monitoring systems just tried to report the detected violations \cite{6225938} \cite{5175897} or assess the penalty cost of service providers \cite{10.1007/978-3-642-22709-7_46} \cite{Dastjerdi:2012:DOA:2275356.2275360}.
+
+However, an effective reaction process is needed to react against SLA violations. Some studies such as \cite{6212007}, \cite{6150077} and \cite{WANG20121135} utilized the SLAs to manage the provider resources without any reaction against violations. 
+
+The FoSII and DeSVi frameworks introduced by Emeakaroha et al. \cite{ [fosii] }\cite{EMEAKAROHA20121017}. They applied the monitoring, analysis, planning and execution loop
+(MAPE) model to enforce the self-healing cloud computing. This architecture has beneficial for cloud management but not for sudden violation reaction. In another study, the LoM2HiS \cite{ [emeakaroha2010low] } framework tried to predict the SLA violations by predefining the thresholds. Then, the alerts are notified into the internal knowledge component for possible adjustment in provider resource [35] however there were not any other reaction strategies. 
+
+On the other hand, LAYSI \cite{5614035} has propagated the detected SLA violations into upper layer but its communication model was based on subscription between meta-negotiators, brokers
+and automatic service deployed. This reaction model was complex and followed the plain SLA document structure which is in contrast of selfhealing SLA. 
+
+This literature review has illustrated that the related works and proposed solutions did  not suitably cover the cloud computing requirements. The most of related works have transmitted the SLA monitoring framework into cloud computing from SOA and grid computing. Although a few effective SLA monitoring and reacting mechanisms have presented, they have followed the common SLA structure yet. Having the selfhealing SLA in cloud computing, an effective selfmonitoring SLA and reaction mechanism are needed.
+
+
+
 Slaws
 Specs
+EUROPEAN COMMISSION DIRECTORATE GENERAL COMMUNICATIONS NETWORKS, CONTENT AND TECHNOLOGY UNIT E2 - SOFTWARE AND SERVICES, CLOUD
+https://www.sla-ready.eu/sla-negotiation
+
 \section{Autonomic Computing}
 Autonomic computing refers to the ability of a distributed system to manage its resources with little or no human intervention. It's all about creating a system that can intelligently adapt to changing environments and needs without the user even knowing it. It was launched in 2001 by IBM to reduce the complexity of managing large distributed systems \cite{horn2001autonomic}.
 
 
 %This (autonomic computing) was instituted in cloud computing to address the challenges of cloud computing. Autonomic cloud computing helps address challenges related to QoS by ensuring SLA are met. QoS is maintained by mostly scaling up or down resources automatically depending on demand by client's business. In addition, autonomic cloud computing helps reduce the carbon footprint of data centres and cloud consumers by automatically scaling up or down energy usage base on cloud activity. Autonomic monitoring are mostly implemented on specific layers of the cloud computing architecture. Authors in [10] implemented an autonomic management system on the PaaS to ensure SaaS layer meets SLA, energy efficiency and maintains security. Authors in [11] developed fuzzy Q-Learning for knowledge evolution. It is a self-learning. Self-adapting cloud controller that auto scales (down or up) the number of virtual machines that support the cloud. It uses data collected at run-time and automatically continues to tune the data in order to achieve desired goals. This is particularly favourable, when there is not enough knowledge at design time. Additionally [12] implemented a QoS autonomic information delivering system for delivering agricultural information systems to farmers. This was achieved at IaaS layer using Cuckoo optimisation algorithm and fuzzy logic to attain autonomic resource allocation. Reference [13] presented a decentralised autonomic architecture for managing wireless sensor networks. They identified automatic operation, aware operation and adaptive operation as properties that each autonomic system must have. An automatic operation property ensures that the system can control its functions and internal resources without human intervention. Aware operation property allows the system to be aware of its resources and capabilities, this allows the system to monitor itself and use feedback mechanism to adapt to its environment. Adaptive operation property allows the system to continuously adapt to environment on short term
 
+Autonomic computing in the area of cloud computing
 
-FoSIIResearchProject
+Autonomic resource allocation 
+\cite{inproceedingshu2009}
+\cite{Casalicchio:2013:ARP:2494621.2494623}
+
+Autonomic self-testing
+\cite{5463688}
+
+
+Autonomic life-cycle management
+
+
+
+
 
 
 
