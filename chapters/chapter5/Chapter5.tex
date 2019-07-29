@@ -739,10 +739,26 @@ However, when comparing the number of SLA violations, it becomes clear that the 
 
 
 
-\subsubsection{Support Vector Machines}\label{SVM}
+\subsubsection{Linear Regression and Support Vector Machines}\label{SVM}
 
-\subsubsection{Linear Regression}\label{LReg}
+Regression is a method of modelling a target value based on independent predictors. This method is mostly used for forecasting and finding out cause and effect relationship between variables. Regression techniques mostly differ based on the number of independent variables and the type of relationship between the independent and dependent variables.
+Simple linear regression is a type of regression analysis where the number of independent variables is one and there is a linear relationship between the independent(x) and dependent(y) variable. The red line in the above graph is referred to as the best fit straight line. Based on the given data points, we try to plot a line that models the points the best. The line can be modelled based on the linear equation shown below.
+y = a_0 + a_1 * x      ## Linear Equation
+The motive of the linear regression algorithm is to find the best values for a_0 and a_1. Before moving on to the algorithm, let’s have a look at two important concepts you must know to better understand linear regression.
 
+
+---
+Linear regression is one of the most versatile statistical methods and a useful method for forecasting \cite{weisberg2014applied}. Thereby we predict scores on one variable from the scores on a second variable. The variable we are predicting is called the criterion variable and is referred to as Y. The variable we are basing our predictions on is called the predictor variable and is referred to as X. When there is only one predictor variable, the prediction method is called simple regression. In simple linear regression, the predictions of Y when plotted as a function of X form a straight line. The accuracy of the prediction depends on the correlation or the strength of the linear connection between the criterion and the predictor variables. The higher the correlation, the more accurate the prognosis can get \cite{montgomery2013introduction}.
+
+
+
+Support Vector Machines (SVM), is a universal learning procedure based on the statistical learning theory. SVM can be used for both regression and classification tasks, but it is mostly used to in classification objectives. Thereby SVM have similarities to neural networks classification. SVMs however, use simpler and thus more comprehensible mathematical methods. The SVM algorithm was develeoped by V. Vapnik on the classification of data. 
+
+----
+
+The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
+To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
+Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes. Also, the dimension of the hyperplane depends upon the number of features. If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane. It becomes difficult to imagine when the number of features exceeds 3. Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
 
 
 
@@ -758,6 +774,8 @@ to assume that in real life there are scenarios with different
 requirements regarding the reaction to those predictions where
 this specific differences, smooth or rough, could be seen as
 either an advantage or disadvantage.
+
+
 
 
 
