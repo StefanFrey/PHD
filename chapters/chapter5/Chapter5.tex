@@ -58,6 +58,7 @@ In order to interact with the implementation a GUI was designed to facilitate th
 \subsection{A-SLO-A}
 The reference implementation of the SLO-A format is based on the abstract SLA* model, developed within the SLA@SOI project cite{Kearney2011b}. The SLA* model is an abstraction layer and follows the description of the Meta Object Facility (MOF), specified by the Object Management Group (OMG). MOF describes a special meta data architecture and itself uses the highest abstraction layer M3. The SLA* model is on layer M2, this correspondences to the Platform Specific Model (PIM). The SLO-A Format is one abstraction layer below (M2). This describes the Platform Specific Model (PSM). So the SLO-A Format is on the same level like SLA(T) description of the SLA@SOI project, as shown in Figure \ref{fig:mbd_SLOA}.
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/Modellbasierte_Entwicklung_Instanz.png}
 \caption{Model Based Development of SLO-A}
 \label{fig:mbd_SLOA}
@@ -70,6 +71,7 @@ Within the SLO-A format it is possible to define Top-Level SLAs and SLO-Agreemen
 
 \subsubsection{Top-Level-SLA to a SLO}
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/sloa_arch_allg.png}
 \caption{Overview of SLO-A Format}
 \label{fig:overview_sloa}
@@ -82,6 +84,7 @@ Resulting characteristics of the model:
 \item SLO-As can be grouped by a higher SLO-A or a Top-Level SLA. This builds a hierarchical tree where each entity is referenced to the next higher SOL-A with an UUID and a naming convention. So a an entity directly references the low SLO-A and monitoring can be done over all. 
 \end{itemize}
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/sloa_arch_refs.png}
 \caption{Example of References within SLO-A}
 \label{fig:example_sloa}
@@ -105,6 +108,7 @@ The next subsections discuss the main features of the SLO-A Model in detail.
 \subsubsection{SLAs and SLA Templates}
 As described in last chapter the documentation is as following: There are two segments, that contains the documentation part of the SLA/SLO-A Templates. The first segment {\it descriptions} keeps the general terms of the agreement. The second segment {\it fuDocs} (shortcut for further Documents) contains the interface description. Both structures will be described later. Normally it is possible to use SLA and SLA Templates without agreement term segment, but for compatibility reasons to SLA* respectively SLA(T) this segment is included.
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/sloa_slas_sla-templates.png}
 \caption{Overview of SLA Template, a modified and extended SLA(T) model \cite{Lambea2011}}
 \label{fig:overview_SLAT}
@@ -127,6 +131,7 @@ The interface declaration is part of the service description and is used to conn
 interface {\it ResVersion}. This is used to keep further external documentation in the segment {\it endpoints}. The class {\it Endpoints} contains the three attributes {\it location}, {\it id} and {\it protocol}, to describe how to access the document. The {\it location} represents the location of the file, for example an URL, the {\it protocol} gives the required protocol to access the file, for an URL it could be {\it HTTP} or {\it HTTPS}. The {\it id} contains an unique identifier for the document. The attribute {\it refProvider} describes, who deposit the document. Also the segment {\it interface} repesented by the class with the same name contains through the class {\it ResourceType} the type of the document. This is in upper letter the type of the document. This is for PDF document the shurtcut 'PDF'.
 The other possibility to describe an interface is the class {\it SpecVersion}. Here a Web Service can be defined by WSDL (Web Service Description Language). This is also part of the SAL* interface specification. Therefore the classes {\it InterfaceDeclr}, {\it InterfaceSpecification}, {\it InterfaceOperation} and {\it InterfaceProperties} are needed. The class {\it InterfaceSpecification} contains the {\it id} of the specification and in the segment {\it operations} are deposit all the operations of the WSDL part.
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/sloa_agreement_term.png}
 \caption{Overview of Agreement Terms}
 \label{fig:overview_AT}
@@ -194,6 +199,7 @@ For the first use case we assume that a customer runs a cloud application on an 
 Due to the changing business environment the customer now wants to change the SLA, because he needs the same service to be available on every Wednesday from 09:00 to 14:00. Therefore the customer loads the existing SLA and adapts the {\it ServiceTime} so that the new requirements are met. The respecting changes to the XML files can be seen in figure \ref{fig:serviceTime}. In the real life the customer would change these settings by loading the already defined SLA into a tool with an graphical user interface like presented before and would simply change the the {\it ServiceTime} and generate the new SLA. This however requires that the newly chosen parameters are inside the limitations given by the provider. This validation is done automatic within the adjustment tool. If the validation succeeds the SLA gets signed online by both parties and is legally binding. In the case of mismatching customer demands and provider offerings the SLA can not be signed and a manual negotiation process has to be performed.
 
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/ServiceTimeChange.png}
 \caption{serviceTime adjustment by the customer}
 \label{fig:serviceTime}
@@ -214,23 +220,29 @@ Additionally the {it ServiceLevelObjective} has to be created in order to measur
 Another use case for using dynamic SLAs is to extend resources. For example, a customer wants to expand his computing power because of large and short term calculations. In this case the customer can order the new CPU power within the graphical interface, and he also is able to do that with time limitations. But it is necessary for the cloud provider to check the resources before he gives a garantuee to the customer for availability and pricing. 
 
 \begin{figure}[ht]
+		\centering
 \includegraphics[width=0.5\textwidth]{fig/offering.png}
 \caption{Service Offering for CPUs}
 \label{fig:offering}
 \end{figure}
 
-For the pricing it is possible for the provider to give certain offers in regard of predefined bundles. In this way the provider is able to achieve a better resource allocation and usage prediction. A sample offering regarding the CPUs can be seen in figure ref{fig:offering}. There a special bundle price for dual core and quad core CPUs is given. The price is calculated by acumullating bundles. In special cases the customer can negotiate new terms with the provider. For the resource allocation the requested demand of the customer is checked against the real time resources of the provider. This is done automatically by inside the SLA creation tool. So after automatically checking the requested resources and calculating the new price the adjusted SLA is available for the customer and can be signed.
+For the pricing it is possible for the provider to give certain offers in regard of predefined bundles. In this way the provider is able to achieve a better resource allocation and usage prediction. A sample offering regarding the CPUs can be seen in figure ref{fig:offering}. There a special bundle price for dual core and quad core CPUs is given. The price is calculated by accumulating bundles. In special cases the customer can negotiate new terms with the provider. For the resource allocation the requested demand of the customer is checked against the real time resources of the provider. This is done automatically by inside the SLA creation tool. So after automatically checking the requested resources and calculating the new price the adjusted SLA is available for the customer and can be signed.
 
 
 \section{QoS Management Modules}
+
 \subsection{Threshold Value System}
+Threshold value systems are one of the simplest forms of process management tools. In Simple a threshold is a boundary between two states, where when the actual value of the threshold is reached the system starts acting. An example for this would be an system where as soon as an defined temperature is reached the it shuts down. 
 
 \begin{figure}[ht]
+		\centering
 	\centering
 	\includegraphics[width=0.7\linewidth]{chapters/chapter5/fig/threshold}
-	\caption{}
+	\caption{Threshold Value System}
 	\label{fig:threshold}
 \end{figure}
+
+In the case of SLAs and QoS thresholds often are seen as the boundary between achieving the guaranteed purchased service offering or not. For example, the response time of a system is the desired QoS aspect, and the SLA guarantees the system response in less than 500 milliseconds. So the threshold value would be 500ms, if the response of the system takes longer, the SLA is broken and the QoS target is failed. In reality, however, such a system would not only be set to the actual value of the SLA, but rather a buffer which would allow the system to react in order to avoid an SLA violation, would be implemented. In our example, this could be that with a response of over 300ms, free up more network resources to keep the response time from increasing.
 
 \subsection*{Fuzzy Inference }
 Most approaches consider infrastructure sensor data like bandwidth, request/response time, CPU usage, memory usage, etc. to control the scaling infrastructure as depicted in Fig. \ref{fig:fuzzy_control_architecture} (dashed box). The approach of this paper is to use additional, often imprecise information (e.g. weather) to improve the management to meet the QoS requirements stated in SLAs. These imprecise factors (e.g. user wants scaling aggressive/moderate, etc.), political factors (legal changes, political summits, etc.), economic/market factors (product advertising, product launch, etc.), other factors influencing the service usage (e.g. weather, gossip, etc.) can not be modelled precisely.
@@ -328,11 +340,16 @@ Imprecise history parameters can be of interest as well. Suppose a service depen
 %\label{tab:TimeDependentSensorParameter}
 %\end{table}
 Time-dependent sensor data contain parameters that can influence the infrastructure management at a predefined time. The knowledge of the typical weekly usage for an service (see Fig. \ref{fig:weakload}) can be modelled and therefore the decision to scale up or down strongly or weakly depending whether the change is high or not.
+
 \begin{figure}[ht]
+	\begin{center}
 \includegraphics[width=0.45\textwidth]{fig/olat_week_usage}
+\end{center}
 \caption{Example: Weekly Load of the HFU Learning Management Platform}
 \label{fig:weakload}
 \end{figure}
+
+
 
 %\paragraph{Service-Dependent Sensor Data}
 %Table \ref{tab:ServiceDependentSensorParameter} 
@@ -378,6 +395,7 @@ Fuzzification is the process of decomposing the input data into fuzzy sets, with
 
 \paragraph*{Fuzzy Inference}
 The fuzzy values gathered from the input data are processed by the inference engine using the expert domain knowledge modeled as fuzzy IF-THEN rules. The following fuzzy rules are examples how to state the domain knowledge in the area of up and down scale control.
+\begin{center}
 \begin{verbatim}
 IF ReqRespTime_rising=high AND
    expected_ReqRespTime_rising=high AND
@@ -387,6 +405,7 @@ THEN
    up_scale=very high
 ...
 \end{verbatim}
+\end{center}
 
 \paragraph*{Defuzzification}
 After the fuzzy reasoning the resulting linguistic output variable (e.g. scale up = high) needs to be translated into a crisp value (e.g. number of VMs to be started or stopped at time). Defuzzification maps the output from the fuzzy domain back into the crisp domain. The most common defuzzification methods is the Center-of-Area (C-o-A) often referred to as Center-of-Gravity and is defined as follows:
@@ -502,7 +521,7 @@ To determine the suitability of the procedure presented, different scenarios hav
 %%Hier noch Bild von Fuzzy set für slope und erklärung für die anpassung auf allocation factor
 
 
-\subsubsection{Simulation Scenario}\label{SimScen2}
+\subsubsection{Fuzzy Evaluation}\label{SimScen2}
 In the presented scenario an complex course of load is sent to the service. In the first three minutes there is an peak demand, followed by reoccurring burst loads. This scenario simulates an peak load that doesn't  flatten quickly. This could be the case for services that depend heavily on news (e.g. launch of intensive product advertising). If the related service shows up in the news a initial large peak is produced and is recreated as smaller recurring peaks by spreading the word. Figure \ref{fig:s2load} shows load graph for this scenario.%This event is fuzzified by the following general membership function (see Fig. \ref{fig:fuzzyevent}. An event has a start and a end time. The fuzzy rule set basically state that during the event the number of VMs started is bigger then before or after the event.
 %\begin{figure}[ht]
 %\begin{center}
@@ -740,49 +759,12 @@ However, when comparing the number of SLA violations, it becomes clear that the 
 
 
 \subsubsection{Linear Regression and Support Vector Machines}\label{SVM}
+Regression is a statistical method of modelling a target value based on independent predictors. It is commonly used for forecasting and finding cause and effect relationships between variables \cite{datascience2017}. Different regression techniques vary based on the number of independent variables and the type of relationship between the independent and dependent variables. Linear regression is one of the most versatile statistical methods and a useful method for forecasting \cite{weisberg2014applied}. Here the number of independent variables is one and there is a linear relationship between the independent and dependent variable. The variable we are predicting is called the criterion variable and is referred to as Y. The variable we are basing our predictions on is called the predictor variable and is referred to as X. In simple linear regression, the predictions of Y when plotted as a function of X form a straight line. The accuracy of the prediction depends on the correlation or the strength of the linear connection between the criterion and the predictor variables. The higher the correlation, the more accurate the prognosis can get \cite{montgomery2013introduction}.
 
-Regression is a method of modelling a target value based on independent predictors. This method is mostly used for forecasting and finding out cause and effect relationship between variables. Regression techniques mostly differ based on the number of independent variables and the type of relationship between the independent and dependent variables.
-Simple linear regression is a type of regression analysis where the number of independent variables is one and there is a linear relationship between the independent(x) and dependent(y) variable. The red line in the above graph is referred to as the best fit straight line. Based on the given data points, we try to plot a line that models the points the best. The line can be modelled based on the linear equation shown below.
-y = a_0 + a_1 * x      ## Linear Equation
-The motive of the linear regression algorithm is to find the best values for a_0 and a_1. Before moving on to the algorithm, let’s have a look at two important concepts you must know to better understand linear regression.
+Support Vector Machines (SVM), is a universal learning procedure based on the statistical learning theory. SVM can be used for both regression and classification tasks, but it is mostly used to in classification objectives. Thereby SVM have similarities to neural networks classification. SVMs however, use simpler and thus more comprehensible mathematical methods. The SVM algorithm was develeoped by V. Vapnik on the classification of data \cite{Cortes:1995:SN:218919.218929} \cite{Vapnik:1995:NSL:211359}.
+A SVM constructs a hyperplane or a set of hyperplanes in an N-dimensional space, which can be used for classification, regression or other tasks. To separate the two classes of data points, there are many possible hyperplanes that could be chosen. The objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the width between classes reinforcement so that future data points can be classified with more confidence. Hyperplanes thereby are the decision boundaries with which the data points are classified. Data points that lie on either side of the hyperplane can be assigned to different classes. The dimension of the hyperplane depends on the number of features. If the input is 2, the hyperplane is only one line. If the input is 3, the hyperplane becomes a two-dimensional plane and so on. Here support vectors are data points that are closer to the hyperplane and affect the position and orientation of the hyperplane. With these support vectors, we maximize the edge of the classifier. Deleting the support vectors changes the position of the hyperplane. These are the points that help us build our SVM.
 
-
----
-Linear regression is one of the most versatile statistical methods and a useful method for forecasting \cite{weisberg2014applied}. Thereby we predict scores on one variable from the scores on a second variable. The variable we are predicting is called the criterion variable and is referred to as Y. The variable we are basing our predictions on is called the predictor variable and is referred to as X. When there is only one predictor variable, the prediction method is called simple regression. In simple linear regression, the predictions of Y when plotted as a function of X form a straight line. The accuracy of the prediction depends on the correlation or the strength of the linear connection between the criterion and the predictor variables. The higher the correlation, the more accurate the prognosis can get \cite{montgomery2013introduction}.
-
-
-
-Support Vector Machines (SVM), is a universal learning procedure based on the statistical learning theory. SVM can be used for both regression and classification tasks, but it is mostly used to in classification objectives. Thereby SVM have similarities to neural networks classification. SVMs however, use simpler and thus more comprehensible mathematical methods. The SVM algorithm was develeoped by V. Vapnik on the classification of data. 
-
-----
-
-The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
-To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
-Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes. Also, the dimension of the hyperplane depends upon the number of features. If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane. It becomes difficult to imagine when the number of features exceeds 3. Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
-
-
-
-Support Vector Machines: Figure 3 shows a contrast
-to the NN algorithm. In the case of SVMs the first peak of
-each burst is underestimated. The following cooldown phase
-before the second peak of each burst is overestimated but
-an improvement over time can be seen, especially on the
-last burst. Figure 4 looks specifically at the first burst and
-a comparison to the NN 2 makes it clear that SVMs predict a
-more smooth curve. It should be kept in mind that it is realistic
-to assume that in real life there are scenarios with different
-requirements regarding the reaction to those predictions where
-this specific differences, smooth or rough, could be seen as
-either an advantage or disadvantage.
-
-
-
-
-
-
-
-
-\subsubsection{Evaluation}\label{MLeval}
+\subsubsection{Machine Learining Evaluation}\label{MLeval}
 In order to apply and evaluate different Machine Learning algorithms, the open source software RapidMiner \cite{rapidminer} was used. The log files created by the CloudSim application were utilized as training and test sets. Furthermore, the available Series extension provided by RapidMiner was used. This extension enables an efficient way to quickly replace different Machine Learning algorithms during the process of creating and evaluating a model in regard to ordered time series.
 
 With the help of a horizon of h=20 (2 seconds), it was defined that the learning algorithms gets to learn the next h time steps in order to be able to predict the value of the average response time of h+1. After the prediction, the time window is incremented by 1 and the next value gets predicted. 
@@ -796,7 +778,6 @@ With the help of a horizon of h=20 (2 seconds), it was defined that the learning
 
 \paragraph*{Scenario 1}
 The first testing scenario resembles a classical burst load. Here the server is hit with short bursts of high demand. In out test the requests at the server are highly increased during 10 seconds followed by a phase of low requests. This pattern ist repeated four times during the course of this test. This type of load can occur, for example, on servers that are attacked by botnet (denial of service attack). Alternatively, this pattern can also occur with automated access to APIs or synchronized access to data. In reality, this kind of load is particularly difficult to process since you can adjust it badly and depending on the scale used the system simply can be too slow.
-
 
 \begin{figure}[ht]
 	\begin{center}
@@ -841,7 +822,7 @@ The first testing scenario resembles a classical burst load. Here the server is 
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/LR1_1}
 	\end{center}
-	\caption{SVM Scenario 1: 0s-100s}
+	\caption{Linear Regression Scenario 1: 0s-100s}
 	\label{fig:LR1_1}
 \end{figure}
 
@@ -849,7 +830,7 @@ The first testing scenario resembles a classical burst load. Here the server is 
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/LR1_2}
 	\end{center}
-	\caption{SVM Scenario 1: 0s-20ss}
+	\caption{Linear Regression Scenario 1: 0s-20ss}
 	\label{fig:LR1_2}
 \end{figure}
 
@@ -860,20 +841,97 @@ The first testing scenario resembles a classical burst load. Here the server is 
 The second scenario shows a system with a normal usage load. The load slowly builds up and then slowly decays again. This scenario in this form or alternatively with strongly decaying load at the is a normal use of the system such as a file transfer or the curl of an larger API.  The scenario duration of twenty seconds is in the normal real life range for such actions. This load is easier to scale because the duration and therefore the speed needed to process this is lower.
 
 \begin{itemize}
-\item \textit{Neural Network:} When looking at the overview in Figure 7 it is demonstrated that moderate changes in response times are learned rather well. The interesting part, shown in more detail in Figure 8, showcases the nature of overestimation. Again, the peak is overestimated, but the predicted curve recovers very fast and yet this issue occurs again after the second plateau. It should be noted that with a different configuration of the NN algorithm a very different curve can be predicted. For this paper we looked at a specific configuration of the algorithm because this characteristic can be utilized and will be explained during the comparison of the algorithms.
+\item \textit{Neural Network:} When looking at the overview in Figure\ref{fig:NN2_1} it is demonstrated that moderate changes in response times are learned rather well. 
 
-\item \textit{Support Vector Machines:} The overview shown in Figure9 displays the capability of the algorithm to be able to adapt to a singular, steadily climbing response time. The prediction during the first phase (0-60s) is handled well by the algorithm. Figure 10 illustrates that the spontaneous and large decline in response time is learned very well. This is an important characteristic as predictions based on those quick changes could be the focus during the application in real-time scenarios. None of the other algorithms is able to predict scenario 2 this precisely.
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/NN2_1}
+	\end{center}
+	\caption{NN Scenario 2: 0s-100s}
+	\label{fig:NN2_1}
+\end{figure}
 
-\item \textit{Linear Regression:} Figure 11 shows again great similarity between predictions made with the help of Linear Regression and SVMs. Again the difference is that the ascent of the curve is predicted in a smoother way. Additionally, the spontaneous and large decline seen in Figure 12 is not predicted very well. The same characteristic applies on the following smaller decline. As a conclusion it can be said that in this specific scenario the model trained by Linear Regression is the weakest. 
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/NN2_2}
+	\end{center}
+	\caption{NN Scenario 2: 65s-100ss}
+	\label{fig:NN2_2}
+\end{figure}
+
+The interesting part, shown in more detail in Figure \ref{fig:NN2_2}, showcases the nature of overestimation. Again, the peak is overestimated, but the predicted curve recovers very fast and yet this issue occurs again after the second plateau. It should be noted that with a different configuration of the NN algorithm a very different curve can be predicted. For this paper we looked at a specific configuration of the algorithm because this characteristic can be utilized and will be explained during the comparison of the algorithms.
+
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/SVM2_1}
+	\end{center}
+	\caption{SVM Scenario 2: 0s-100s}
+	\label{fig:SVM2_1}
+\end{figure}
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/SVM2_2}
+	\end{center}
+	\caption{SVM Scenario 2: 65s-100ss}
+	\label{fig:SVM2_2}
+\end{figure}
+
+
+\item \textit{Support Vector Machines:} The overview shown in Figure \ref{fig:SVM2_1} displays the capability of the algorithm to be able to adapt to a singular, steadily climbing response time. The prediction during the first phase (0-60s) is handled well by the algorithm. Figure \ref{fig:SVM2_2} illustrates that the spontaneous and large decline in response time is learned very well. This is an important characteristic as predictions based on those quick changes could be the focus during the application in real-time scenarios. None of the other algorithms is able to predict scenario 2 this precisely.
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/LR2_1}
+	\end{center}
+	\caption{Linear Regression Scenario 2: 0s-100s}
+	\label{fig:LR2_1}
+\end{figure}
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/LR2_2}
+	\end{center}
+	\caption{Linear Regression Scenario 2: 65s-100ss}
+	\label{fig:LR2_2}
+\end{figure}
+
+\item \textit{Linear Regression:} Figure \ref{fig:LR2_1} shows again great similarity between predictions made with the help of Linear Regression and SVMs. Again the difference is that the ascent of the curve is predicted in a smoother way. Additionally, the spontaneous and large decline seen in Figure \ref{fig:LR2_2} is not predicted very well. The same characteristic applies on the following smaller decline. As a conclusion it can be said that in this specific scenario the model trained by Linear Regression is the weakest. 
 \end{itemize}
 
-\textbf{Scenario 3} 
+
+\paragraph*{Scenario 3}
 The third and final scenario is a mixture of the two previous ones. First, a single burst is triggered, followed by a slower but higher load, which decreases in the end. Such mixed load profiles are very often found in reality because different users and systems access resources at the same time. These loads are not synchronized and therefore can lead to chaotic scenarios.
 
-\begin{itemize}
-\item \textit{Neural Network:} Figure 13 shows that during the first phase (0-100s) the model trained by a NN has minor problems in predicting the response time. Although the peaks are generally predicted well, sometimes they are underestimated and sometimes overestimated. But in contrast to the other algorithms the difference in error margin is very small in most cases. During the recovery times after each slope, the local minima are overestimated almost in every case. While the first big peak of a response time over 42000ms is overestimated as well, the second one is predicted almost perfectly. The relative smooth slopes before, during and after the larger peaks are predicted very well with no prominent deficit. 
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/NN3}
+	\end{center}
+	\caption{NN Scenario 3: 0s-300s}
+	\label{fig:NN3_1}
+\end{figure}
 
-\item \textit{Support Vector Machines:} Figure 14 shows that a model trained by SVMs can predict the response time for a varying scenario rather well. The occurring peaks during the first phase (0-100s) are underestimated in every case, but not to a large degree. This leads likewise to the underestimation of the recovery times after each peak, which are the consequence of adding and deleting Virtual Machines. The two larger peaks with a response time of over 42000ms are underestimated again by a small margin while the relative smooth slopes before, in between and after are learned well with non prominent deficit in their prediction. 
+\begin{itemize}
+\item \textit{Neural Network:} Figure \ref{fig:NN3_1} shows that during the first phase (0-100s) the model trained by a NN has minor problems in predicting the response time. Although the peaks are generally predicted well, sometimes they are underestimated and sometimes overestimated. But in contrast to the other algorithms the difference in error margin is very small in most cases. During the recovery times after each slope, the local minima are overestimated almost in every case. While the first big peak of a response time over 42000ms is overestimated as well, the second one is predicted almost perfectly. The relative smooth slopes before, during and after the larger peaks are predicted very well with no prominent deficit. 
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/SVM3}
+	\end{center}
+	\caption{SVM Scenario 3: 0s-300s}
+	\label{fig:SVM3_1}
+\end{figure}
+
+\item \textit{Support Vector Machines:} Figure \ref{fig:SVM3_1} shows that a model trained by SVMs can predict the response time for a varying scenario rather well. The occurring peaks during the first phase (0-100s) are underestimated in every case, but not to a large degree. This leads likewise to the underestimation of the recovery times after each peak, which are the consequence of adding and deleting Virtual Machines. The two larger peaks with a response time of over 42000ms are underestimated again by a small margin while the relative smooth slopes before, in between and after are learned well with non prominent deficit in their prediction. 
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/LR3}
+	\end{center}
+	\caption{Linear Regression Scenario 3: 0s-300s}
+	\label{fig:LR3_1}
+\end{figure}
 
 \item \textit{Linear Regression:} Figure15 shows that a model trained by Linear Regression can cope well in a varying scenario. Similar to the SVM model it slightly underestimates the response time in the first phase (0-100s). In general, it can be said that those models are very similar and have only minor, negligible differences. The main difference is that the use of Linear Regression leads to smoother slopes.
 \end{itemize}
@@ -881,20 +939,8 @@ The third and final scenario is a mixture of the two previous ones. First, a sin
 While it was shown that all 3 algorithms can be effectively used for predicting the response time in different scenarios it can be said that the NN has a minor advantage over the other algorithms. The main reason is that the NN, in general, slightly overestimates and almost never underestimates the response time. The practical application of this knowledge, e.g., using those predictions in combination with a scaler who manages the quantity of VMs leads to a more assuring state that requirements like defined SLAs can be covered more carefully than with other algorithms. In less critical business cases, where the defined SLAs and response times are not that sensitive, the other 2 algorithms, SVMs and Linear Regression, can be used despite their tendency to slightly underestimate response times. Especially the Linear Regression with its fast training and deployment times could be considered in near real-time scenarios.
 
 
-%\section{Simulator}
-%\subsection*{Requestgenerator \& Load Balancing}
-%\subsection*{Cloud SIM}
-%\subsection*{Log \& Reporting}
+\section{Results}
 
-\section{Holistic SLA Management}
-As  described in the previous sections, the quality, respectivly the KPIs of a service can be improved by the described methods. However, it is not enough to concentrate merley on the quality of the individual services, since in modern cloud landscapes, disruptions, failures or performance issues can occur. This requires a holistic approach, where the management of the individual service quality and the overall management of the cloud in brought together. For example, in a general cloud landscape it is quite possible that the individual services are scaled and managed almost optimally by the algorithms described above, but the overall performance of the landscape is the limitating factor. This is where the holistic SLA management comes to bear. Here, not only on each service as a single is respected but also the overall situation of the landscape is taken care of. For example, in an cloud enviornment where the performance is adversely affected by an infrastructure problem, this may mean that certain services are sacrificed in favor of other services. In particular, the contractual penalties and categorization of the customer regulated by the SLAs play an overriding role.
-
-
-\subsection{Instance Sheduling with Genetic Algorithm}
-
-\section{Results and Evaluation}
-
-%While it was shown that all 3 algorithms can be effectively used for predicting the response time in different scenariosit can be said that the NN has a minor advantage over the other algorithms. The main reason is that the NN in general slightly overestimates and almost never underestimates the response time. The practical application of this knowledge, e.g. using those predictions in combination with a scaler who manages the quantity of VMs leads to a more assuring state that requirements like defined SLAs can be covered more carefully than with other algorithms. In less critical businesscases, where the defined SLAs and response times are not that sensitive, the other 2 algorithms, SVMs and Linear Regression, can be used despite their tendency to slightly underestimate response times. Especially the Linear Regression with its fast training and deployment times could be considered in near real-time scenarios.
 
 
 Similar research with respectively different focus has been conducted in the past for Neural Networks [5] [6], Support Vector Machines and deviations [7] [8] as well as for Linear Regression [9] [10]. This paper delineates itself from past research by taking a closer look at the specific characteristics of each algorithm and presenting the results in a visual way.
@@ -923,13 +969,27 @@ regression based processor load prediction for efficient scaling of grid
 and cloud resources,” in Computer and Information Technology (ICCIT),
 2011 14th International Conference on, Dec 2011, pp. 333–338.
 
+\section{Holistic SLA Management}
+As  described in the previous sections, the quality, respectively the KPIs of a service can be improved by the described methods. However, it is not enough to concentrate merely on the quality of the individual services, since in modern cloud landscapes, disruptions, failures or performance issues can occur. This requires a holistic approach, where the management of the individual service quality and the overall management of the cloud in brought together. For example, in a general cloud landscape it is quite possible that the individual services are scaled and managed almost optimally by the algorithms described above, but the overall performance of the landscape is the limitation factor. This is where the holistic SLA management comes to bear. Here, not only on each service as a single is respected but also the overall situation of the landscape is taken care of. For example, in an cloud environment where the performance is adversely affected by an infrastructure problem, this may mean that certain services are sacrificed in favour of other services. In particular, the contractual penalties and categorization of the customer regulated by the SLAs play an overriding role.
 
-\subsection{Scenario A}
-Request Response time SLA
+
+Example Cost / Usage SLA
+
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/holo1}
+	\end{center}
+	\caption{SLA Scheduling Model}
+	\label{fig:Holo1}
+\end{figure}
 
 
-\subsection{Scenario B}
-HDD and Backup SLA
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/holo2}
+	\end{center}
+	\caption{Holistic Scheduler Model}
+	\label{fig:Holo2}
+\end{figure}
 
-\subsection{Scenario C}
-SLA Management to Cost / Fine minimization
+

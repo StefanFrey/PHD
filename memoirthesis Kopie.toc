@@ -64,29 +64,25 @@
 \contentsline {subsubsection}{\numberline {5.2.1.2}Collected Information Factors for the Fuzzy Control}{56}{subsubsection.5.2.1.2}
 \contentsline {subsubsection}{\numberline {5.2.1.3}Fuzzy Control Module}{57}{subsubsection.5.2.1.3}
 \contentsline {subsubsection}{\numberline {5.2.1.4}Simulation Environment}{58}{subsubsection.5.2.1.4}
-\contentsline {subsubsection}{\numberline {5.2.1.5}Simulation Scenario}{60}{subsubsection.5.2.1.5}
+\contentsline {subsubsection}{\numberline {5.2.1.5}Fuzzy Evaluation}{60}{subsubsection.5.2.1.5}
 \contentsline {subsection}{\numberline {5.2.2}Machine Learning Algorithms}{62}{subsection.5.2.2}
 \contentsline {subsubsection}{\numberline {5.2.2.1}Artificial Neural Network}{62}{subsubsection.5.2.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Support Vector Machines}{68}{subsubsection.5.2.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.3}Evaluation}{68}{subsubsection.5.2.2.3}
-\contentsline {section}{\numberline {5.3}Holistic SLA Management}{72}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Instance Sheduling with Genetic Algorithm}{73}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Results and Evaluation}{73}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Scenario A}{73}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Scenario B}{73}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Scenario C}{73}{subsection.5.4.3}
-\contentsline {chapter}{\chapternumberline {6}Related Work}{75}{chapter.6}
-\contentsline {section}{\numberline {6.1}Infrastructure Measurements and Cloud Monitoring}{75}{section.6.1}
-\contentsline {section}{\numberline {6.2}SLA Modeling and Description Languages}{76}{section.6.2}
-\contentsline {section}{\numberline {6.3}Performance Prediction}{78}{section.6.3}
-\contentsline {section}{\numberline {6.4}Scheduling Mechanisms}{79}{section.6.4}
-\contentsline {section}{\numberline {6.5}SLA Enforcement}{80}{section.6.5}
-\contentsline {section}{\numberline {6.6}Autonomic Computing}{81}{section.6.6}
-\contentsline {chapter}{\chapternumberline {7}Conclusion and Future Work}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Summary}{83}{section.7.1}
-\contentsline {section}{\numberline {7.2}Lessons Learned}{84}{section.7.2}
-\contentsline {section}{\numberline {7.3}Future Work}{85}{section.7.3}
-\contentsline {chapter}{Bibliography}{87}{chapter*.17}
-\contentsline {chapter}{Appendix A - Published Papers \& Outputs}{103}{chapter*.18}
-\contentsline {paragraph}{Conference Papers}{103}{section*.19}
-\contentsline {paragraph}{Research Reports}{103}{section*.20}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Linear Regression and Support Vector Machines}{68}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Machine Learining Evaluation}{69}{subsubsection.5.2.2.3}
+\contentsline {section}{\numberline {5.3}Results}{76}{section.5.3}
+\contentsline {section}{\numberline {5.4}Holistic SLA Management}{77}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Related Work}{79}{chapter.6}
+\contentsline {section}{\numberline {6.1}Infrastructure Measurements and Cloud Monitoring}{79}{section.6.1}
+\contentsline {section}{\numberline {6.2}SLA Modeling and Description Languages}{80}{section.6.2}
+\contentsline {section}{\numberline {6.3}Performance Prediction}{82}{section.6.3}
+\contentsline {section}{\numberline {6.4}Scheduling Mechanisms}{83}{section.6.4}
+\contentsline {section}{\numberline {6.5}SLA Enforcement}{84}{section.6.5}
+\contentsline {section}{\numberline {6.6}Autonomic Computing}{86}{section.6.6}
+\contentsline {chapter}{\chapternumberline {7}Conclusion and Future Work}{87}{chapter.7}
+\contentsline {section}{\numberline {7.1}Summary}{87}{section.7.1}
+\contentsline {section}{\numberline {7.2}Lessons Learned}{88}{section.7.2}
+\contentsline {section}{\numberline {7.3}Future Work}{89}{section.7.3}
+\contentsline {chapter}{Bibliography}{91}{chapter*.18}
+\contentsline {chapter}{Appendix A - Published Papers \& Outputs}{93}{chapter*.19}
+\contentsline {paragraph}{Conference Papers}{93}{section*.20}
+\contentsline {paragraph}{Research Reports}{93}{section*.21}

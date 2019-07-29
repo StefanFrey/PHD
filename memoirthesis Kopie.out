@@ -39,22 +39,18 @@
 \BOOKMARK [1][-]{section.5.2}{QoS Management Modules}{chapter.5}% 39
 \BOOKMARK [2][-]{subsection.5.2.1}{Threshold Value System}{section.5.2}% 40
 \BOOKMARK [2][-]{subsection.5.2.2}{Machine Learning Algorithms}{section.5.2}% 41
-\BOOKMARK [1][-]{section.5.3}{Holistic SLA Management}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.3.1}{Instance Sheduling with Genetic Algorithm}{section.5.3}% 43
-\BOOKMARK [1][-]{section.5.4}{Results and Evaluation}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.4.1}{Scenario A}{section.5.4}% 45
-\BOOKMARK [2][-]{subsection.5.4.2}{Scenario B}{section.5.4}% 46
-\BOOKMARK [2][-]{subsection.5.4.3}{Scenario C}{section.5.4}% 47
-\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 48
-\BOOKMARK [1][-]{section.6.1}{Infrastructure Measurements and Cloud Monitoring}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.2}{SLA Modeling and Description Languages}{chapter.6}% 50
-\BOOKMARK [1][-]{section.6.3}{Performance Prediction}{chapter.6}% 51
-\BOOKMARK [1][-]{section.6.4}{Scheduling Mechanisms}{chapter.6}% 52
-\BOOKMARK [1][-]{section.6.5}{SLA Enforcement}{chapter.6}% 53
-\BOOKMARK [1][-]{section.6.6}{Autonomic Computing}{chapter.6}% 54
-\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Work}{}% 55
-\BOOKMARK [1][-]{section.7.1}{Summary}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.2}{Lessons Learned}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.3}{Future Work}{chapter.7}% 58
-\BOOKMARK [0][-]{chapter*.17}{Bibliography}{}% 59
-\BOOKMARK [0][-]{chapter*.18}{Appendix A - Published Papers \046 Outputs}{}% 60
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.4}{Holistic SLA Management}{chapter.5}% 43
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Infrastructure Measurements and Cloud Monitoring}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{SLA Modeling and Description Languages}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{Performance Prediction}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.4}{Scheduling Mechanisms}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.5}{SLA Enforcement}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.6}{Autonomic Computing}{chapter.6}% 50
+\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Work}{}% 51
+\BOOKMARK [1][-]{section.7.1}{Summary}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.2}{Lessons Learned}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.3}{Future Work}{chapter.7}% 54
+\BOOKMARK [0][-]{chapter*.18}{Bibliography}{}% 55
+\BOOKMARK [0][-]{chapter*.19}{Appendix A - Published Papers \046 Outputs}{}% 56
