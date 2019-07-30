@@ -933,63 +933,36 @@ The third and final scenario is a mixture of the two previous ones. First, a sin
 	\label{fig:LR3_1}
 \end{figure}
 
-\item \textit{Linear Regression:} Figure15 shows that a model trained by Linear Regression can cope well in a varying scenario. Similar to the SVM model it slightly underestimates the response time in the first phase (0-100s). In general, it can be said that those models are very similar and have only minor, negligible differences. The main difference is that the use of Linear Regression leads to smoother slopes.
+\item \textit{Linear Regression:} Figure15 shows that a model trained by linear regression can cope well in a varying scenario. Similar to the SVM model it slightly underestimates the response time in the first phase (0-100s). In general, it can be said that those models are very similar and have only minor, negligible differences. The main difference is that the use of Linear Regression leads to smoother slopes.
 \end{itemize}
 
-While it was shown that all 3 algorithms can be effectively used for predicting the response time in different scenarios it can be said that the NN has a minor advantage over the other algorithms. The main reason is that the NN, in general, slightly overestimates and almost never underestimates the response time. The practical application of this knowledge, e.g., using those predictions in combination with a scaler who manages the quantity of VMs leads to a more assuring state that requirements like defined SLAs can be covered more carefully than with other algorithms. In less critical business cases, where the defined SLAs and response times are not that sensitive, the other 2 algorithms, SVMs and Linear Regression, can be used despite their tendency to slightly underestimate response times. Especially the Linear Regression with its fast training and deployment times could be considered in near real-time scenarios.
+While it was shown that all 3 algorithms can be effectively used for predicting the response time in different scenarios it can be said that the NN has a minor advantage over the other algorithms. The main reason is that the NN, in general, slightly overestimates and almost never underestimates the response time. The practical application of this knowledge, e.g., using those predictions in combination with a scaler who manages the quantity of VMs leads to a more assuring state that requirements like defined SLAs can be covered more carefully than with other algorithms. In less critical business cases, where the defined SLAs and response times are not that sensitive, the other 2 algorithms, SVMs and linear regression, can be used despite their tendency to slightly underestimate response times. Especially the Linear Regression with its fast training and deployment times could be considered in near real-time scenarios.
 
 
 \section{Results}
-
-
-
-Similar research with respectively different focus has been conducted in the past for Neural Networks [5] [6], Support Vector Machines and deviations [7] [8] as well as for Linear Regression [9] [10]. This paper delineates itself from past research by taking a closer look at the specific characteristics of each algorithm and presenting the results in a visual way.
-
-[5] J. J. Prevost, K. Nagothu, B. Kelley, and M. Jamshidi, “Prediction of
-cloud data center networks loads using stochastic and neural models,”
-in System of Systems Engineering (SoSE), 2011 6th International Conference
-on, June 2011, pp. 276–281.
-[6] C.-C. Li and K. Wang, “An sla-aware load balancing scheme for cloud
-datacenters,” in Information Networking (ICOIN), 2014 International
-Conference on, Feb 2014, pp. 58–63.
-[7] R. Hu, J. Jiang, G. Liu, and L. Wang, “Kswsvr: A new load forecasting
-method for efficient resources provisioning in cloud,” in Services Computing
-(SCC), 2013 IEEE International Conference on, June 2013, pp.
-120–127.
-[8] A. Nikravesh, S. Ajila, and C.-H. Lung, “Towards an autonomic autoscaling
-prediction system for cloud resource provisioning,” in Software
-Engineering for Adaptive and Self-Managing Systems (SEAMS), 2015
-IEEE/ACM 10th International Symposium on, May 2015, pp. 35–45.
-[9] A. Bankole and S. Ajila, “Predicting cloud resource provisioning using
-machine learning techniques,” in Electrical and Computer Engineering
-(CCECE), 2013 26th Annual IEEE Canadian Conference on, May 2013,
-pp. 1–4.
-[10]M. Imam, S. Miskhat, R. Rahman, and M. Amin, “Neural network and
-regression based processor load prediction for efficient scaling of grid
-and cloud resources,” in Computer and Information Technology (ICCIT),
-2011 14th International Conference on, Dec 2011, pp. 333–338.
+Given all the evaluation results of the different methods in this section it can be stated that every proactive approach of controlling the QoS of an cloud instance is beneficial in terms of SLA compliance. Especially the approaches which are supposed to minimize SLA injuries through the use of machine learning algorithms have proven to be effective. Similar research with respectively different focus has been conducted in the past for Neural Networks \cite{6799665} \cite{Prevost2011PredictionOC}, Support Vector Machines and deviations \cite{6649686} \cite{7194655} as well as for Linear Regression \cite{6567848} \cite{[6164809]}. In detail it was shown that the machine learning based approaches come up with better management regarding the avoidance of SLA infractions. Nevertheless, the use of the simple fuzzy thresholds also offers a beneficial aspect, towards SLA compliance and QoS management and can be implemented much more easily. Additionally the effort for the prediction and the training of the algorithms should not be taken into consideration. Therefore the linear regression module has proven to be an good choice.
 
 \section{Holistic SLA Management}
-As  described in the previous sections, the quality, respectively the KPIs of a service can be improved by the described methods. However, it is not enough to concentrate merely on the quality of the individual services, since in modern cloud landscapes, disruptions, failures or performance issues can occur. This requires a holistic approach, where the management of the individual service quality and the overall management of the cloud in brought together. For example, in a general cloud landscape it is quite possible that the individual services are scaled and managed almost optimally by the algorithms described above, but the overall performance of the landscape is the limitation factor. This is where the holistic SLA management comes to bear. Here, not only on each service as a single is respected but also the overall situation of the landscape is taken care of. For example, in an cloud environment where the performance is adversely affected by an infrastructure problem, this may mean that certain services are sacrificed in favour of other services. In particular, the contractual penalties and categorization of the customer regulated by the SLAs play an overriding role.
+As  described in the previous sections, the quality, respectively the KPIs of a service can be improved by the described methods. However, this may not be enough to concentrate merely on the quality of the individual services, since in modern cloud landscapes, disruptions, failures or performance issues can occur. This requires a holistic approach, where the management of the individual service quality and the overall management of the cloud in brought together. For example, in a general cloud landscape it is quite possible that the individual services are scaled and managed almost optimally by the algorithms described above, but the overall performance of the landscape is the limitation factor. This is where the holistic SLA management comes to bear. Here, not only on each service as a single is respected but also the overall situation of the landscape is taken care of. For example, in an cloud environment where the performance is adversely affected by an infrastructure problem, this may mean that certain services are sacrificed in favour of other services. In particular, the contractual penalties and categorization of the customer regulated by the SLAs play an overriding role.
 
-
-Example Cost / Usage SLA
+In order to manage the usage of the underlying infrastructure as best as possible, either in a monetary or customer satisfactory way, an approach for scheduling the provided services is needed. To formalize this problem a customers service or instance can be views as an two or more-dimensional plane. For example, in the simplest way, the first dimension is the time and the second dimension the computational resources that a cloud instance needs. Scheduling these  can be abstracted as seen in figure \ref{fig:Holo1}.
 
 \begin{figure}[ht]
 	\begin{center}
-		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/holo1}
+		\includegraphics[width=0.70\textwidth]{chapters/chapter5/fig/holo1}
 	\end{center}
-	\caption{SLA Scheduling Model}
+	\caption{Cloud Instances Abstraction}
 	\label{fig:Holo1}
 \end{figure}
 
+For this type of problem there is already an enormous publication on solution approaches as this is known as bin packing or knapsack optimization problem \cite{Korte2008}. Here the 2-dimensional planes are ordered and distributed as efficient as possible in regards of packing height \cite{Wilson_1984}. In particular, the algorithms for weighted packing \cite{10.1007/978-3-540-77918-6_18} \cite{10.1007/978-3-642-13731-0_24} \cite{Raidl:1999:MCP:335527.335530} represents an approach that is interesting for holistic scheduling. For here, individual weights are additionally weighted and the algorithm optimizes packing to achieve optimal stacking with the highest weighting value. When deploying Cloud Instance schedules for SLAs, this could be used to map this weighting, for example, to the amount of a contractual penalty. The status of the customer could also be included in such a weighting.
 
 \begin{figure}[ht]
 	\begin{center}
-		\includegraphics[width=0.40\textwidth]{chapters/chapter5/fig/holo2}
+		\includegraphics[width=0.70\textwidth]{chapters/chapter5/fig/holo2}
 	\end{center}
-	\caption{Holistic Scheduler Model}
+	\caption{Holistic SLA Scheduling Model}
 	\label{fig:Holo2}
 \end{figure}
 
-
+As shown in figure \ref{fig:Holo2} the model of the holistic SLA scheduling process uses an weighted algorithm to decide which customer instances and therefore SLA shall be satisfied and which ones to drop. However, this approach is only for execution in outages and emergency situations. With the approach presented here, damage can be minimized and costs for contractual penalties reduced in the event of an emergency.

@@ -13,12 +13,12 @@
 \contentsline {subsection}{\numberline {2.1.2}Cloud Computing Definition}{8}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Cloud Models}{9}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Reference Architecture}{12}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Cloud Computing Advantages and Disadvantages}{14}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.5}Cloud Computing Advantages and Disadvantages}{15}{subsection.2.1.5}
 \contentsline {section}{\numberline {2.2}Service Level Agreements}{16}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}SLA Life Cycle}{17}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}SLA Content}{18}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Service Level Objectives}{20}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Summary}{20}{section.2.3}
+\contentsline {section}{\numberline {2.3}Summary}{21}{section.2.3}
 \contentsline {chapter}{\chapternumberline {3}SLA Management and the Cloud}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Current Cloud SLA Landscape}{23}{section.3.1}
 \contentsline {section}{\numberline {3.2}KPIs for Cloud Services}{25}{section.3.2}
@@ -77,12 +77,12 @@
 \contentsline {section}{\numberline {6.3}Performance Prediction}{82}{section.6.3}
 \contentsline {section}{\numberline {6.4}Scheduling Mechanisms}{83}{section.6.4}
 \contentsline {section}{\numberline {6.5}SLA Enforcement}{84}{section.6.5}
-\contentsline {section}{\numberline {6.6}Autonomic Computing}{86}{section.6.6}
+\contentsline {section}{\numberline {6.6}Autonomic Computing}{85}{section.6.6}
 \contentsline {chapter}{\chapternumberline {7}Conclusion and Future Work}{87}{chapter.7}
 \contentsline {section}{\numberline {7.1}Summary}{87}{section.7.1}
 \contentsline {section}{\numberline {7.2}Lessons Learned}{88}{section.7.2}
 \contentsline {section}{\numberline {7.3}Future Work}{89}{section.7.3}
 \contentsline {chapter}{Bibliography}{91}{chapter*.18}
-\contentsline {chapter}{Appendix A - Published Papers \& Outputs}{93}{chapter*.19}
-\contentsline {paragraph}{Conference Papers}{93}{section*.20}
-\contentsline {paragraph}{Research Reports}{93}{section*.21}
+\contentsline {chapter}{Appendix A - Published Papers \& Outputs}{117}{chapter*.19}
+\contentsline {paragraph}{Conference Papers}{117}{section*.20}
+\contentsline {paragraph}{Research Reports}{117}{section*.21}
