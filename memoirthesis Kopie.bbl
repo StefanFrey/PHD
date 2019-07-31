@@ -3,11 +3,12 @@
 \bibitem{ASLAMaaS}
 {HFU Cloud Research Lab}, ``{Autonomic SLA Management as a Service Project
   Website},'' 2014.
-\newblock [Accessed: 25. 07. 2014].
+\newblock http://wolke.hs-furtwangen.de/currentprojects/aslamaas [Accessed: 25.
+  07. 2014].
 
 \bibitem{NISTArch}
 F.~Liu, J.~Tong, J.~Mao, R.~B. Bohn, J.~V. Messina, M.~L. Badger, and D.~M.
-  Leaf, {\em NIST Cloud Computing Reference Architecture}.
+  Leaf, {\em {NIST Cloud Computing Reference Architecture}}.
 \newblock National Institute of Standards and Technology, 2011.
 \newblock {http://www.nist.gov/manuscript-publication-search.cfm?=909505
   [Accessed: 24. 06. 2014]}.
@@ -19,12 +20,12 @@ T.~Mather, S.~Kumaraswamy, and S.~Latif, {\em Cloud Security and Privacy: An
 \newblock ISBN-978-0-5968-0276-9.
 
 \bibitem{Gartner}
-{Gartner Research Group}, ``{Hype Cycles},'' 2014.
-\newblock http://www.gartner.com/technology/research/hype-cycles/ [Accessed:
-  25. 08. 2014].
+{Gartner Research Group}, ``{Hype Cycle},'' 2014.
+\newblock http://www.gartner.com/technology/research/hype-cycles [Accessed: 25.
+  08. 2014].
 
 \bibitem{gartnercc18}
-G.~R. Group, ``{Hype Cycle for Cloud Computing},'' 2018.
+{Gartner Research Group}, ``{Hype Cycle for Cloud Computing},'' 2018.
 \newblock
   {https://www.gartner.com/en/documents/3884671/hype-cycle-for-cloud-computing-2018,
   [Accessed: 15. 05. 2019]}.
@@ -48,28 +49,28 @@ E.~Manoel, M.~J. Nielsen, A.~Salahshour, S.~Sampath, and S.~Sudarshanan, {\em
 \bibitem{BITKOM19}
 {BITKOM and KPMG}, ``{Cloud Monitor 2019},'' 2019.
 \newblock
-  https://www.bitkom.org/sites/default/files/2019-06/bitkom_kpmg_pk_charts_cloud_monitor_18_06_2019.pdf
-  [Accessed: 18. 07. 2019].
+  {https://www.bitkom.org/sites/default/files/2019-06/bitkom{\_}kpmg{\_}pk{\_}charts{\_}cloud{\_}monitor{\_}18{\_}06{\_}2019.pdf
+  [Accessed: 18. 07. 2019]}.
 
 \bibitem{Dropbox}
-D.~Inc., 2014.
-\newblock [Accessed: 12. 09. 2014].
+{Dropbox Inc.}, ``{Dropbox Website},'' 2014.
+\newblock {https://www.dropbox.com} [Accessed: 12. 09. 2014].
 
 \bibitem{OneDrive}
-M.~OneDrive, 2014.
-\newblock [Accessed: 12. 09. 2014].
+{Microsoft}, ``{ OneDrive Website},'' 2014.
+\newblock {https://onedrive.live.com [Accessed: 12. 09. 2014]}.
 
 \bibitem{GoogleDrive}
-G.~Drive, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Google, ``{Google Drive Website},'' 2014.
+\newblock {https://drive.google.com} [Accessed: 12. 09. 2014].
 
 \bibitem{AWS}
 Amazon, ``{AWS Web Services Website},'' 2014.
 \newblock {http://aws.amazon.com/, [Accessed: 12. 09. 2014]}.
 
 \bibitem{Azure}
-M.~A.~C. Platform, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Microsoft, ``{Azure Cloud Platform Website},'' 2014.
+\newblock {https://azure.microsoft.com} [Accessed: 12. 09. 2014].
 
 \bibitem{IDC}
 {G. Cattaneo, M. Kolding, D. Bradshaw, G. Folco, IDC for the European
@@ -87,26 +88,33 @@ Gartner, ``{Worldwide Public Cloud Revenue to Grow 17.3 Percent in 2019},''
   [Accessed: 02. 05. 2019].
 
 \bibitem{DMTF2010}
-{Distributed Management Task Force}, ``Architecture for managing clouds.''
+{Distributed Management Task Force}, ``{Architecture for Managing Clouds},''
+  2013.
+\newblock
+  {http://dmtf.org/sites/default/files/standards/documents/DSP-IS0102{\_}1.0.0.pdf}
+  [Accessed: 13. 07. 2014].
 
 \bibitem{JTC}
-I.~S. .~S. Group, ``Jtc sc 38 study group report on cloud computing.''
+{ISO/IEC SC 38 Study Group}, ``{JTC SC 38 Study Group Report on Cloud
+  Computing}.''
 \newblock {http://isotc.iso.org} [Accessed: 17. 06. 2014].
 
 \bibitem{EC2SLA}
-{Amazon}, ``Ec2 service level agreement website.''
+{Amazon}, ``{EC2 Service Level Agreement Website}.''
+\newblock {http://aws.amazon.com/de/ec2/sla, [Accessed: 02. 05. 2015]}.
 
 \bibitem{CloudSLAwhite}
-D.~Data, ``Comparing public cloud service level agreements,'' 2013.
-\newblock [Accessed: 02. 05. 2015].
+{Dimension Data}, ``{Comparing Public Cloud Service Level Agreements},'' 2013.
+\newblock
+  {http://cloud.dimensiondata.com/sites/default/files/comparing{\_}public{\_}cloud{\_}service{\_}level{\_}agreements{\_}0{\_}0.pdf}
+  [Accessed: 02. 05. 2015].
 
 \bibitem{Baset:2012:CSP:2331576.2331586}
-S.~A. Baset, ``Cloud slas: Present and future,'' {\em SIGOPS Oper. Syst. Rev.},
-  vol.~46, pp.~57--66, July 2012.
+S.~A. Baset, ``{Cloud SLAs: Present and Future},'' {\em {SIGOPS Oper. Syst.
+  Rev.}}, vol.~46, pp.~57--66, July 2012.
 
 \bibitem{meaning}
-G.~Inc., ``Cloud iaas slas can be meaningless
-  {http://blogs.gartner.com/lydia\_leong/2012/12/05/cloud-iaas-slas-can-be-meaningless}.''
+{Gartner Research}, ``Cloud iaas slas can be meaningless,'' 2012.
 \newblock
   {http://blogs.gartner.com/lydia\_leong/2012/12/05/cloud-iaas-slas-can-be-meaningless}
   [Accessed: 12. 09. 2014].
@@ -114,19 +122,22 @@ G.~Inc., ``Cloud iaas slas can be meaningless
 \bibitem{Ludwig03WSLA}
 H.~Ludwig, A.~Keller, A.~Dan, R.~P. King, and R.~Franck, ``{Web Service Level
   Agreement (WSLA) Language Specification, v1.0},'' Jan. 2003.
+\newblock {http://www.research.ibm.com/wsla/WSLASpecV1-20030128.pdf} [Accessed:
+  03. 05. 2010].
 
 \bibitem{5557978}
-S.~Ferretti, V.~Ghini, F.~Panzieri, M.~Pellegrini, and E.~Turrini, {\em QoS
-  Aware Clouds}.
-\newblock July 2010.
+S.~Ferretti, V.~Ghini, F.~Panzieri, M.~Pellegrini, and E.~Turrini, ``{QoS Aware
+  Clouds},'' {\em Cloud Computing (CLOUD), 2010 IEEE 3rd International
+  Conference on}, pp.~321--328, July 2010.
 
 \bibitem{Wieder2011}
-J.~Happe, W.~Theilmann, A.~Edmonds, and K.~Kearney, {\em Service Level
-  Agreements for Cloud Computing}.
-\newblock Springer-Verlag, 2011.
+P.~Wieder, J.~M. Butler, W.~Theilmann, and R.~Yahyapour, {\em Service level
+  agreements for cloud computing}.
+\newblock Springer Science \& Business Media, 2011.
+\newblock ISBN 978-1-4614-1614-2.
 
 \bibitem{4755149}
-N.~{Leavitt}, ``Is cloud computing really ready for prime time?,'' {\em
+N.~{Leavitt}, ``{Is Cloud Computing Really Ready for Prime Time?},'' {\em
   Computer}, vol.~42, pp.~15--20, Jan 2009.
 
 \bibitem{TheBigSwitch}
@@ -135,70 +146,79 @@ N.~G. Carr, {\em The Big Switch: Der grosse Wandel - Die Vernetzung der Welt
 \newblock ISBN 978-3-8266-5508-1: Heidelberg: Mitp, 1st~ed., 2009.
 
 \bibitem{EC2}
-{Amazon}, ``{Amazon Elastic Compute Cloud (Amazon EC2)},'' 2006.
-\newblock [Accessed: 22. 06. 2014].
+{Amazon}, ``{Amazon Elastic Compute Cloud (EC2)},'' 2006.
+\newblock
+  {http://aws.amazon.com/de/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta}
+  [Accessed: 22. 06. 2014].
 
 \bibitem{MIT-TechRev}
 A.~Regalado, {\em Who Coined 'Cloud Computing'?}
 \newblock MIT Technology Review Business in the Cloud, 2011.
-\newblock [Accessed: 24. 06. 2014].
+\newblock
+  {http://www.technologyreview.com/news/425970/who-coined-cloud-computing}
+  [Accessed: 24. 06. 2014].
 
 \bibitem{Gillett:1997:SIC:275025.275027}
 S.~E. Gillett and M.~Kapor, {\em Coordinating the Internet}.
-\newblock Cambridge, MA, USA: The Self-Governing Internet: Coordination by
-  Design, MIT Press, pp. 3 - 38, 1997.
+\newblock 1997.
+\newblock The Self-Governing Internet: Coordination by Design, MIT Press
+  Cambridge, MA, USA, pp. 3 - 38 ISBN 0-262-61136-8.
 
 \bibitem{Informs}
 R.~K. Chellappa, {\em Intermediaries in cloud-computing: A new computing
   paradigm}.
-\newblock In INFORMS Dallas 1997, Cluster: Electronic Commerce, Dallas, Texas,,
+\newblock INFORMS Dallas 1997, Cluster: Electronic Commerce, Dallas, Texas,
   1997.
 
 \bibitem{GuideToCC}
 M.~Cooter and C.~Pro, {\em The Ultimate Guide to Cloud Computing}.
 \newblock Dennis Publishing, 2011.
+\newblock ISBN 978-1781-0609-26.
 
 \bibitem{VM}
-IBM, {\em The Virtualization Cookbook for IBM z/VM 6.3, RHEL 6.4, and SLES 11
-  SP3}.
+IBM, {\em {The Virtualization Cookbook for IBM z/VM 6.3, RHEL 6.4, and SLES 11
+  SP3}}.
 \newblock IBM Redbooks, 2014.
+\newblock ISBN 978-0-7384-3893-1.
 
 \bibitem{BITKOM}
-B.~C.~M. 2014, 2014.
-\newblock [Accessed: 18. 08. 2014].
+BITKOM, ``Cloud monitor 2014,'' 2014.
+\newblock {http://www.bitkom.org/de/presse/30739{\_}78524.aspx} [Accessed: 18.
+  08. 2014].
 
 \bibitem{Juniper}
-J.~Research, ``Cloud computing - consumer markets - strategies \& forecasts
-  2014-2018,'' 2014.
-\newblock [Accessed: 12. 08. 2014].
+{Juniper Research}, ``{Cloud Computing - Consumer Markets - Strategies \&
+  Forecasts 2014-2018},'' 2014.
+\newblock {http://www.juniperresearch.com/reports.php?id=739} [Accessed: 12.
+  08. 2014].
 
 \bibitem{rackspace}
-Rackspace, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Rackspace, ``Rackspace website,'' 2014.
+\newblock {http://www.rackspace.com} [Accessed: 12. 09. 2014].
 
 \bibitem{Googlecompute}
-G.~Compute, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Google, ``{Google Compute Website},'' 2014.
+\newblock {https://cloud.google.com/compute} [Accessed: 12. 09. 2014].
 
 \bibitem{GoogleAppEngine}
-G.~A. Engine, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Google, ``{Google App Engine Website},'' 2014.
+\newblock {https://cloud.google.com/appengine/docs} [Accessed: 12. 09. 2014].
 
 \bibitem{GoogleApps}
 Google, ``{Google Apps Website},'' 2014.
-\newblock [Accessed: 12. 09. 2014].
+\newblock {http://www.google.com/work/apps/business} [Accessed: 12. 09. 2014].
 
 \bibitem{GoogleDocs}
-G.~Docs, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Google, ``{Google Docs Website},'' 2014.
+\newblock {https://docs.google.com} [Accessed: 12. 09. 2014].
 
 \bibitem{Office365}
-M.~O. 365, 2014.
-\newblock [Accessed: 12. 09. 2014].
+Microsoft, ``{Office 365 Website},'' 2014.
+\newblock {http://office.microsoft.com/de-de [Accessed: 12. 09. 2014]}.
 
 \bibitem{Salesforce}
 Salesforce, 2014.
-\newblock [Accessed: 12. 09. 2014].
+\newblock {http://www.salesforce.com} [Accessed: 12. 09. 2014].
 
 \bibitem{CloudChallenges}
 Q.~Zhang, L.~Cheng, and R.~Boutaba, ``Cloud computing: state-of-the-art and
@@ -206,23 +226,24 @@ Q.~Zhang, L.~Cheng, and R.~Boutaba, ``Cloud computing: state-of-the-art and
   vol.~1, no.~1, pp.~7--18, 2010.
 
 \bibitem{Cloud360}
-I.~Foster, Y.~Zhao, I.~Raicu, and S.~Lu, {\em {Cloud Computing and Grid
-  Computing 360-Degree Compared}}.
-\newblock IEEE, Nov. 2008.
+I.~Foster, Y.~Zhao, I.~Raicu, and S.~Lu, ``{Cloud Computing and Grid Computing
+  360-Degree Compared},'' {\em Grid Computing Environments Workshop, 2008. GCE
+  '08}, pp.~1--10, Nov. 2008.
 
 \bibitem{CCbasics}
 S.~Srinivasan, {\em Cloud Computing Basics}.
 \newblock ISBN 978-1-4614-7698-6: Springer New York, 1st~ed., 2014.
 
 \bibitem{CloudConcerns}
-{Intel Corp.}, ``What is holding back the cloud?,'' 2012.
+{Intel Corp.}, ``{What is holding back the cloud?},'' 2012.
 \newblock {http://www.intel.com/content/www/us/en/cloud-
   computing/whats-holding-back-the-cloud-peer-research-report.html}, [Accessed:
   02. 08. 2014].
 
 \bibitem{6409059}
-A.~Behl and K.~Behl, {\em An analysis of cloud computing security issues}.
-\newblock Oct. 2012.
+A.~Behl and K.~Behl, ``An analysis of cloud computing security issues,'' {\em
+  Information and Communication Technologies (WICT), 2012 World Congress on},
+  pp.~109--114, Oct. 2012.
 
 \bibitem{Zissis2012583}
 D.~Zissis and D.~Lekkas, ``Addressing cloud computing security issues,'' {\em
@@ -233,13 +254,13 @@ Amazon, ``{AWS Simple Monthly Calculator Website}.''
 \newblock {https://calculator.aws/, [Accessed: 14. 02. 2019]}.
 
 \bibitem{Contabo}
-A.~Hosting, ``{Dedicated Server Hosting},'' 2019.
+{A2 Hosting}, ``{Dedicated Server Hosting},'' 2019.
 \newblock {https://www.a2hosting.com/dedicated-server-hosting/core/compare
   [Accessed: 12. 07. 2019}.
 
 \bibitem{ITILweb}
 {ITIL Foundation}, ``{Information Technology Infrastructure Library (ITIL)}.''
-\newblock {http://www.itil-officialsite.com/} [Accessed: 12. 09. 2014].
+\newblock {http://www.itil-officialsite.com} [Accessed: 12. 09. 2014].
 
 \bibitem{SLAEntwurf}
 H.~Schmidt, {\em Entwurf von Service Level Agreements auf der Basis von
@@ -248,22 +269,26 @@ H.~Schmidt, {\em Entwurf von Service Level Agreements auf der Basis von
 \newblock ISBN: 3-8316-0071-6.
 
 \bibitem{sun2005role}
-W.~Sun, Y.~Xu, and F.~Liu, ``The role of xml in service level agreements
-  management,'' vol.~2, pp.~1118--1120 Vol. 2, 2005.
+W.~Sun, Y.~Xu, and F.~Liu, ``{The role of XML in service level agreements
+  management},'' {\em 2005 International Conference on Services Systems and
+  Services Management, 2005. proceedings of ICSSSM '05.}, vol.~2,
+  pp.~1118--1120, 2005.
 
 \bibitem{hasselmeyer2007negotiating}
 P.~Hasselmeyer, B.~Koller, I.~Kotsiopoulos, D.~Kuo, and M.~Parkin,
-  ``Negotiating slas with dynamic pricing policies,'' {\em proceedings of the
+  ``{Negotiating SLAs with dynamic pricing policies},'' {\em Proceedings of the
   SOC@ Inside'07}, 2007.
 
 \bibitem{gangadharan2007service}
 G.~R. Gangadharan, G.~Frankova, and V.~D'Andrea, ``Service license life
-  cycle,'' pp.~150--158, 2007.
+  cycle,'' {\em Collaborative Technologies and Systems, 2007. CTS 2007.
+  International Symposium on}, pp.~150--158, 2007.
 
 \bibitem{scholderer2011management}
 R.~Scholderer, {\em Management von Service-Level-Agreements: methodische
   Grundlagen und Praxisl{\"o}sungen mit CobiT, ISO 20000 und ITIL}.
 \newblock Dpunkt.Verlag GmbH, 2011.
+\newblock ISBN 978-3-8986-4702-1.
 
 \bibitem{Berger05}
 T.~G. Berger, {\em Konzeption und Management von Service-Level-Agreements f\"ur
@@ -284,12 +309,15 @@ R.~Sturm, W.~Morris, and M.~Jander, {\em Foundations of Service Level
   [Accessed: 12. 11. 2013].
 
 \bibitem{SC38StudyGroup2011}
-{ISO/IEC JTC 1/SC 38 Study Group}, ``Study group report on cloud computing,''
-  tech. rep., International Organization for Standardization, 2011.
+{ISO/IEC JTC 1/SC 38 Study Group}, ``{Study Group Report on Cloud Computing},''
+  tech. rep., {International Organization for Standardization}, 2011.
+\newblock
+  {http://isotc.iso.org/livelink/livelink/fetch/-8913189/8913214/8913373/Study{\_}Group{\_}on_Cloud{\_}Computing{\_}final{\_}report.pdf?nodeid=12096352&vernum=-2
+  } [Accessed: 08. 09. 2014].
 
 \bibitem{Kearney2011b}
-K.~T. Kearney, F.~Torelli, and C.~Kotsokalis, ``Sla*: An abstract syntax for
-  service level agreements,'' {\em 11th IEEE/ACM International Conference on
+K.~T. Kearney, F.~Torelli, and C.~Kotsokalis, ``{SLA*: An Abstract Syntax for
+  Service Level Agreements},'' {\em 11th IEEE/ACM International Conference on
   Grid Computing}, pp.~217--224, 2011.
 
 \bibitem{slasoi2011}
@@ -301,19 +329,22 @@ K.~T. Kearney, F.~Torelli, and C.~Kotsokalis, ``Sla*: An abstract syntax for
 \newblock {http://mirror42.com} [Accessed: 12. 07. 2014].
 
 \bibitem{ISOnew}
-I.~O. for Standardization ISO/IEC NP 19086-2 Information technology Cloud
-  computing Service level~agreement (SLA)~framework and T.~P.~. Metrics, 2014.
-\newblock [Accessed: 22. 09. 2014].
+{International Organization for Standardization}, ``{ISO/IEC NP 19086-2
+  Information technology -- Cloud computing -- Service level agreement (SLA)
+  framework and Technology -- Part 2: Metrics},'' 2014.
+\newblock
+  {http://www.iso.org/iso/home/store/catalogue{\_}tc/catalogue{\_}detail.htm?csnumber=67546
+  } [Accessed: 22. 09. 2014].
 
 \bibitem{Experton}
-{Experton Group}, ``Experton-analyse: Wer f/"ult die cloud mit business
+{Experton Group}, ``Experton-analyse: Wer f{/"u}llt die cloud mit business
   services.''
 \newblock {http://www.computerwoche.de/management/cloud- computing/1934027/}
   [Accessed: 17. 03. 2014].
 
 \bibitem{wsla}
-A.~Keller and H.~Ludwig, ``The wsla framework: Specifying and monitoring
-  service level agreements for web services,'' {\em Journal of Network and
+A.~Keller and H.~Ludwig, ``{The WSLA Framework: Specifying and Monitoring
+  Service Level Agreements for Web Services},'' {\em Journal of Network and
   Systems Management}, vol.~11, pp.~57--81, Mar. 2003.
 
 \bibitem{rackspace15}
@@ -338,7 +369,8 @@ D.~{Gunter}, B.~{Tierney}, B.~{Crowley}, M.~{Holding}, and J.~{Lee},
 
 \bibitem{Fu:2006:GSG:1170138.1170724}
 W.~Fu and Q.~Huang, ``Grideye: A service-oriented grid monitoring system with
-  improved forecasting algorithm,'' pp.~5--12, 2006.
+  improved forecasting algorithm,'' {\em proceedings of the Fifth International
+  Conference on Grid and Cooperative Computing Workshops}, pp.~5--12, 2006.
 
 \bibitem{Wood:2009:SBG:1663647.1663710}
 T.~Wood, P.~Shenoy, A.~Venkataramani, and M.~Yousif, ``Sandpiper: Black-box and
@@ -380,17 +412,19 @@ J.~Spring, ``Monitoring cloud computing by layer, part 2,'' {\em IEEE Security
   \& Privacy}, vol.~9, no.~3, pp.~52--55, 2011.
 
 \bibitem{menasce2002load}
-D.~A. Menasc{\'e}, {\em Load testing, benchmarking, and application performance
-  management for the web}.
-\newblock 2002.
+D.~A. Menasc{\'e}, ``Load testing, benchmarking, and application performance
+  management for the web,'' {\em Int. CMG Conference}, pp.~271--282, 2002.
 
 \bibitem{5610586}
 M.~{Alhamad}, T.~{Dillon}, and E.~{Chang}, ``{Conceptual SLA framework for
-  cloud computing},'' pp.~606--610, Apr. 2010.
+  cloud computing},'' {\em 4th IEEE International Conference on Digital
+  Ecosystems and Technologies}, pp.~606--610, Apr. 2010.
 
 \bibitem{Spillner2009}
 J.~Spillner, M.~Winkler, S.~Reichert, J.~Cardoso, and A.~Schill, ``Distributed
-  contracting and monitoring in the internet of services,'' pp.~129--142, 2009.
+  contracting and monitoring in the internet of services,'' {\em proceedings of
+  the 9th IFIP WG 6.1 International Conference on Distributed Applications and
+  Interoperable Systems}, pp.~129--142, 2009.
 
 \bibitem{Patel2009ServiceLA}
 P.~Patel, A.~Ranabahu, and A.~Sheth, {\em Service Level Agreement in Cloud
@@ -398,43 +432,53 @@ P.~Patel, A.~Ranabahu, and A.~Sheth, {\em Service Level Agreement in Cloud
 \newblock 2009.
 
 \bibitem{Kubert:2011:RIW:1967428.1967444}
-R.~K\"{u}bert, G.~Katsaros, and T.~Wang, ``A restful implementation of the
-  ws-agreement specification,'' pp.~67--72, 2011.
+R.~K\"{u}bert, G.~Katsaros, and T.~Wang, ``{A RESTful Implementation of the
+  WS-agreement Specification},'' {\em proceedings of the Second International
+  Workshop on RESTful Design}, pp.~67--72, 2011.
 
 \bibitem{6225938}
 C.~{M\"{u}ller}, M.~{Oriol}, M.~{Rodr\'{\i}guez}, X.~{Franch}, J.~{Marco},
-  M.~{Resinas}, and A.~{Ruiz-Cort\'{e}s}, {\em SALMonADA: A platform for
-  monitoring and explaining violations of WS-agreement-compliant documents}.
-\newblock June 2012.
+  M.~{Resinas}, and A.~{Ruiz-Cort\'{e}s}, ``{SALMonADA: A platform for
+  monitoring and explaining violations of WS-agreement-compliant documents},''
+  {\em 2012 4th International Workshop on Principles of Engineering
+  Service-Oriented Systems (PESOS)}, pp.~43--49, June 2012.
 
 \bibitem{5739040}
-A.~{Kertesz}, G.~{Kecskemeti}, and I.~{Brandic}, {\em Autonomic SLA-Aware
-  Service Virtualization for Distributed Systems}.
-\newblock Feb. 2011.
+A.~{Kertesz}, G.~{Kecskemeti}, and I.~{Brandic}, ``Autonomic sla-aware service
+  virtualization for distributed systems,'' {\em 2011 19th International
+  Euromicro Conference on Parallel, Distributed and Network-Based Processing},
+  pp.~503--510, Feb. 2011.
 
 \bibitem{6076508}
-A.~{Undheim}, A.~{Chilwan}, and P.~{Heegaard}, {\em Differentiated Availability
-  in Cloud Computing SLAs}.
-\newblock Sept. 2011.
+A.~{Undheim}, A.~{Chilwan}, and P.~{Heegaard}, ``Differentiated availability in
+  cloud computing slas,'' {\em 2011 IEEE/ACM 12th International Conference on
+  Grid Computing}, pp.~129--136, Sept. 2011.
 
 \bibitem{Liu2011}
 F.~Liu, J.~Tong, J.~Mao, R.~B. Bohn, J.~V. Messina, M.~L. Badger, and D.~M.
-  Leaf, ``Nist cloud computing reference architecture,'' 2011.
+  Leaf, ``{NIST Cloud Computing Reference Architecture},'' 2011.
+\newblock {http://www.nist.gov/customcf/get{\_}pdf.cfm?pub{\_}id=909505}
+  [Accessed: 03. 05. 2013].
 
 \bibitem{Khasnabish2010}
 B.~Khasnabish, J.~Chu, S.~Ma, Y.~Meng, N.~So, and P.~Unbehagen, ``Cloud
   reference framework,'' tech. rep., Internet Engineering Task Force, 2010.
 
 \bibitem{kouki2014language}
-IEEE, {\em A language support for cloud elasticity management}, 2014.
+Y.~Kouki, F.~A. De~Oliveira, S.~Dupont, and T.~Ledoux, ``A language support for
+  cloud elasticity management,'' {\em 2014 14th IEEE/ACM International
+  Symposium on Cluster, Cloud and Grid Computing}, pp.~206--215, 2014.
 
 \bibitem{fosii}
 {FOSII Team}, ``Foundations of self-governing ict infrastructures website.''
+\newblock {http://www.infosys.tuwien.ac.at/linksites/FOSII/index.html}
+  [Accessed: 10. 07. 2014].
 
 \bibitem{Brandic:2009:VFE:1616056.1616063}
-I.~Brandic, D.~Music, P.~Leitner, and S.~Dustdar, {\em VieSLAF Framework:
-  Enabling Adaptive and Versatile SLA-Management}.
-\newblock GECON '09, Berlin, Heidelberg: Springer-Verlag, 2009.
+I.~Brandic, D.~Music, P.~Leitner, and S.~Dustdar, ``Vieslaf framework: Enabling
+  adaptive and versatile sla-management,'' {\em proceedings of the 6th
+  International Workshop on Grid Economics and Business Models}, pp.~60--73,
+  2009.
 
 \bibitem{texo2011}
 {Fraunhofer IAO}, ``{Theseus Texo - Business Webs im Internet der Dienste},''
@@ -444,9 +488,10 @@ I.~Brandic, D.~Music, P.~Leitner, and S.~Dustdar, {\em VieSLAF Framework:
   [Accessed: 25. 07. 2015].
 
 \bibitem{Lawrence:2010:USL:2050107.2050112}
-A.~Lawrence, K.~Djemame, O.~W\"{a}ldrich, W.~Ziegler, and C.~Zsigri, {\em Using
-  service level agreements for optimising cloud infrastructure services}.
-\newblock ServiceWave'10, Berlin, Heidelberg: Springer-Verlag, 2011.
+A.~Lawrence, K.~Djemame, O.~W\"{a}ldrich, W.~Ziegler, and C.~Zsigri, ``Using
+  service level agreements for optimising cloud infrastructure services,'' {\em
+  proceedings of the 2010 international conference on Towards a service-based
+  internet}, pp.~38--49, 2011.
 
 \bibitem{slasoiwiki}
 {SLA@SOI}, ``{SLA Model Website}.''
@@ -460,12 +505,14 @@ A.~Lawrence, K.~Djemame, O.~W\"{a}ldrich, W.~Ziegler, and C.~Zsigri, {\em Using
   2017].
 
 \bibitem{uriarte2014slac}
-IEEE Computer Society, {\em Slac: A formal service-level-agreement language for
-  cloud computing}, 2014.
+R.~B. Uriarte, F.~Tiezzi, and R.~D. Nicola, ``Slac: A formal
+  service-level-agreement language for cloud computing,'' {\em proceedings of
+  the 2014 IEEE/ACM 7th International Conference on Utility and Cloud
+  Computing}, pp.~419--426, 2014.
 
 \bibitem{SLA-Ready}
-{Project Webite}, ``{SLA-Ready},'' 2017.
-\newblock [Accessed: 25. 08. 2017].
+{Project Website}, ``{SLA-Ready},'' 2017.
+\newblock {https://www.sla-ready.eu/sla-negotiation} [Accessed: 25. 08. 2017].
 
 \bibitem{LapedesFarber87}
 A.~Lapedes and R.~Farber, ``{Nonlinear Signal Processing Using Neural Networks:
@@ -560,31 +607,37 @@ C.~Arizmendi, D.~A. Sierra, A.~Vellido, and E.~Romero, ``Automated
   with Applications}, vol.~41, no.~11, pp.~5296--5307, 2014.
 
 \bibitem{prevost2011prediction}
-J.~J. Prevost, K.~Nagothu, B.~Kelley, and M.~Jamshidi, {\em Prediction of cloud
-  data center networks loads using stochastic and neural models}.
-\newblock 2011.
+J.~J. Prevost, K.~Nagothu, B.~Kelley, and M.~Jamshidi, ``Prediction of cloud
+  data center networks loads using stochastic and neural models,'' {\em System
+  of Systems Engineering (SoSE), 2011 6th International Conference on},
+  pp.~276--281, 2011.
 
 \bibitem{li2014sla}
 C.-C. Li and K.~Wang, ``An sla-aware load balancing scheme for cloud
-  datacenters,'' pp.~58--63, 2014.
+  datacenters,'' {\em Information Networking (ICOIN), 2014 International
+  Conference on}, pp.~58--63, 2014.
 
 \bibitem{hu2013kswsvr}
 R.~Hu, J.~Jiang, G.~Liu, and L.~Wang, ``Kswsvr: A new load forecasting method
-  for efficient resources provisioning in cloud,'' pp.~120--127, 2013.
+  for efficient resources provisioning in cloud,'' {\em Services Computing
+  (SCC), 2013 IEEE International Conference on}, pp.~120--127, 2013.
 
 \bibitem{bankole2013predicting}
-A.~Bankole and S.~Ajila, {\em Predicting cloud resource provisioning using
-  machine learning techniques}.
-\newblock 2013.
+A.~Bankole and S.~Ajila, ``Predicting cloud resource provisioning using machine
+  learning techniques,'' {\em Electrical and Computer Engineering (CCECE), 2013
+  26th Annual IEEE Canadian Conference on}, pp.~1--4, 2013.
 
 \bibitem{imam2011neural}
 M.~T. Imam, S.~F. Miskhat, R.~M. Rahman, and M.~A. Amin, ``Neural network and
   regression based processor load prediction for efficient scaling of grid and
-  cloud resources,'' pp.~333--338, 2011.
+  cloud resources,'' {\em Computer and Information Technology (ICCIT), 2011
+  14th International Conference on}, pp.~333--338, 2011.
 
 \bibitem{6114435}
 M.~{Mao} and M.~{Humphrey}, ``Auto-scaling to minimize cost and meet
-  application deadlines in cloud workflows,'' pp.~1--12, Nov. 2011.
+  application deadlines in cloud workflows,'' {\em SC '11: proceedings of 2011
+  International Conference for High Performance Computing, Networking, Storage
+  and Analysis}, pp.~1--12, Nov. 2011.
 
 \bibitem{PANDA2015176}
 S.~K. Panda, I.~Gupta, and P.~K. Jana, ``Allocation-aware task scheduling for
@@ -641,6 +694,7 @@ S.~K. Panda, I.~Gupta, and P.~K. Jana, ``Allocation-aware task scheduling for
 \bibitem{haizea}
 {Haizea Project - University of Chicago}, ``Haizea - an open source vm-based
   lease manager.'' http://haizea.cs.uchicago.edu/, 2011.
+\newblock {http://haizea.cs.uchicago.edu} [Accessed: 25. 08. 2016].
 
 \bibitem{twolevel}
 {Jeyarani, R. and Ram, R. Vasanth and Nagaveni, N.}, ``Design and
@@ -650,34 +704,44 @@ S.~K. Panda, I.~Gupta, and P.~K. Jana, ``Allocation-aware task scheduling for
 
 \bibitem{haizea2}
 {Sotomayor, B., Keahey, K.: Haizea}, ``Haizea website,'' 2011.
-\newblock {http://haizea.cs.uchicago.edu/} [Accessed: 25. 01. 2011].
+\newblock {http://haizea.cs.uchicago.edu/} [Accessed: 25. 01. 2014].
 
 \bibitem{haizea1}
-{Sotomayor, B., Montero, R.S., Llorente, I.M., Foster, I.}, 2009.
+{Sotomayor, B., Montero, R.S., Llorente, I.M., Foster, I.}, ``Capacity leasing
+  in cloudsystems using the opennebula engine,'' {\em Cloud Computing and
+  Applications, CCA2008}, 2009.
 
 \bibitem{haizea3}
-{Sotomayor, B., Foster, I., Keahey, K.}, 2006.
+{Sotomayor, B., Foster, I., Keahey, K.}, ``Overhead matters: A model for
+  virtual re-source management,'' {\em proceedings of the 2nd International
+  Workshop on Virtu-alization Technology in Distributed Computing, IEEE
+  Computer Society, Wash-ington, DC, USA}, 2006.
 
 \bibitem{haizea4}
-{Sotomayor, B., Montero, R.S., Llorente, I.M., Foster, I.}, 2009.
+{Sotomayor, B., Montero, R.S., Llorente, I.M., Foster, I.}, ``Resource leasing
+  and the art of suspending virtual machines,'' {\em In 11th IEEE International
+  Conference on High Performance Computing and Communications, pp. 59--68.
+  IEEE}, 2009.
 
 \bibitem{boniface2007dynamic}
-Springer, {\em Dynamic service provisioning using GRIA SLAs}, 2007.
+M.~Boniface, S.~C. Phillips, A.~Sanchez-Macian, and M.~Surridge, ``Dynamic
+  service provisioning using gria slas,'' {\em International Conference on
+  Service-Oriented Computing}, pp.~56--67, 2007.
 
 \bibitem{5175897}
 M.~{Comuzzi}, C.~{Kotsokalis}, G.~{Spanoudakis}, and R.~{Yahyapour},
-  ``Establishing and monitoring slas in complex service based systems,''
-  pp.~783--790, July 2009.
+  ``Establishing and monitoring slas in complex service based systems,'' {\em
+  2009 IEEE International Conference on Web Services}, pp.~783--790, July 2009.
 
 \bibitem{emeakaroha2010low}
-V.~C. Emeakaroha, I.~Brandic, M.~Maurer, and S.~Dustdar, {\em Low level metrics
+V.~C. Emeakaroha, I.~Brandic, M.~Maurer, and S.~Dustdar, ``{Low level metrics
   to high level SLAs-LoM2HiS framework: Bridging the gap between monitored
-  metrics and SLA parameters in cloud environments}.
-\newblock 2010.
+  metrics and SLA parameters in cloud environments},'' {\em 2010 International
+  Conference on High Performance Computing \& Simulation}, pp.~48--54, 2010.
 
 \bibitem{articleEmeakaroha2013}
-V.~Emeakaroha, I.~Brandic, M.~Maurer, and S.~Dustdar, ``Cloud resource
-  provisioning and sla enforcement via lom2his framework,'' {\em Concurrency
+V.~Emeakaroha, I.~Brandic, M.~Maurer, and S.~Dustdar, ``{Cloud resource
+  provisioning and SLA enforcement via LoM2HiS framework},'' {\em Concurrency
   and Computation: Practice and Experience}, vol.~25, 7 2013.
 
 \bibitem{articleQoSMONaas}
@@ -693,15 +757,17 @@ V.~Emeakaroha, M.~Netto, R.~Calheiros, I.~Brandic, R.~Buyya, and C.~DeRose,
 \newblock Special section: Quality of Service in Grid and Cloud Computing.
 
 \bibitem{5547150}
-V.~C. {Emeakaroha}, I.~{Brandic}, M.~{Maurer}, and S.~{Dustdar}, ``Low level
-  metrics to high level slas - lom2his framework: Bridging the gap between
-  monitored metrics and sla parameters in cloud environments,'' pp.~48--54,
-  June 2010.
+V.~C. {Emeakaroha}, I.~{Brandic}, M.~{Maurer}, and S.~{Dustdar}, ``{Low level
+  Metrics to High level SLAs - LoM2HiS framework: Bridging the gap between
+  monitored metrics and SLA parameters in cloud environments},'' {\em 2010
+  International Conference on High Performance Computing Simulation},
+  pp.~48--54, June 2010.
 
 \bibitem{10.1007/978-3-642-22709-7_46}
 P.~Varalakshmi, K.~H. Priya, J.~Pradeepa, and V.~Perumal, {\em SLA with Dual
   Party Beneficiality in Distributed Cloud}.
 \newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2011.
+\newblock ISBN 978-3-642-22709-7.
 
 \bibitem{Dastjerdi:2012:DOA:2275356.2275360}
 A.~V. Dastjerdi, S.~G.~H. Tabatabaei, and R.~Buyya, ``A dependency-aware
@@ -710,13 +776,15 @@ A.~V. Dastjerdi, S.~G.~H. Tabatabaei, and R.~Buyya, ``A dependency-aware
   2012.
 
 \bibitem{6212007}
-T.~A.~L. {Genez}, L.~F. {Bittencourt}, and E.~R.~M. {Madeira}, {\em Workflow
-  scheduling for SaaS / PaaS cloud providers considering two SLA levels}.
-\newblock Apr. 2012.
+T.~A.~L. {Genez}, L.~F. {Bittencourt}, and E.~R.~M. {Madeira}, ``Workflow
+  scheduling for saas / paas cloud providers considering two sla levels,'' {\em
+  2012 IEEE Network Operations and Management Symposium}, pp.~906--912, Apr.
+  2012.
 
 \bibitem{6150077}
 H.~{Liu}, D.~{Xu}, and H.~K. {Miao}, ``Ant colony optimization based service
-  flow scheduling with various qos requirements in cloud computing,''
+  flow scheduling with various qos requirements in cloud computing,'' {\em 2011
+  First ACIS International Symposium on Software and Network Engineering},
   pp.~53--58, Dec. 2011.
 
 \bibitem{WANG20121135}
@@ -730,17 +798,18 @@ V.~{Casola}, A.~{De Benedictis}, M.~{Era{\c s}cu}, J.~{Modic}, and M.~{Rak},
   Transactions on Services Computing}, vol.~10, pp.~741--755, Sept. 2017.
 
 \bibitem{horn2001autonomic}
-P.~Horn, ``Autonomic computing: Ibm$\backslash$'s perspective on the state of
-  information technology,'' 2001.
+P.~Horn, ``{Autonomic computing: IBMs Perspective on the State of Information
+  Technology},'' 2001.
 
 \bibitem{fei2005design}
-W.~Fei and L.~Fan-Zhang, {\em The design of an autonomic computing model and
-  the algorithm for decision-making}, vol.~1.
-\newblock 2005.
+W.~Fei and L.~Fan-Zhang, ``The design of an autonomic computing model and the
+  algorithm for decision-making,'' {\em Granular Computing, 2005 IEEE
+  International Conference on}, vol.~1, pp.~270--273, 2005.
 
 \bibitem{zhao2009survey}
 Z.~Zhao, C.~Gao, and F.~Duan, ``A survey on autonomic computing research,''
-  vol.~2, pp.~288--291, 2009.
+  {\em Computational Intelligence and Industrial Applications, 2009. PACIIA
+  2009. Asia-Pacific Conference on}, vol.~2, pp.~288--291, 2009.
 
 \bibitem{inproceedingshu2009}
 Y.~Hu, J.~Wong, G.~Iszlai, and M.~Litoiu, ``Resource provisioning for cloud
@@ -749,20 +818,24 @@ Y.~Hu, J.~Wong, G.~Iszlai, and M.~Litoiu, ``Resource provisioning for cloud
   2009.
 
 \bibitem{Casalicchio:2013:ARP:2494621.2494623}
-E.~Casalicchio, D.~A. Menasc{\'e}, and A.~Aldhalaan, {\em Autonomic Resource
-  Provisioning in Cloud Systems with Availability Goals}.
-\newblock CAC '13, New York, NY, USA: ACM, 2013.
+E.~Casalicchio, D.~A. Menasc{\'e}, and A.~Aldhalaan, ``Autonomic resource
+  provisioning in cloud systems with availability goals,'' {\em proceedings of
+  the 2013 ACM Cloud and Autonomic Computing Conference}, pp.~1:1--1:10, 2013.
 
 \bibitem{5463688}
 T.~M. {King} and A.~S. {Ganti}, ``Migrating autonomic self-testing to the
-  cloud,'' pp.~438--443, Apr. 2010.
+  cloud,'' {\em 2010 Third International Conference on Software Testing,
+  Verification, and Validation Workshops}, pp.~438--443, Apr. 2010.
 
 \bibitem{brandic2009towards}
-IEEE, {\em Towards self-manageable cloud services}, vol.~2, 2009.
+I.~Brandic, ``Towards self-manageable cloud services,'' {\em 2009 33rd Annual
+  IEEE International Computer Software and Applications Conference}, vol.~2,
+  pp.~128--133, 2009.
 
 \bibitem{sterritt2005autonomic}
-R.~Sterritt and M.~Hinchey, ``Autonomic computing-panacea or poppycock?,''
-  pp.~535--539, 2005.
+R.~Sterritt and M.~Hinchey, ``Autonomic computing-panacea or poppycock?,'' {\em
+  Engineering of Computer-Based Systems, 2005. ECBS'05. 12th IEEE International
+  Conference and Workshops on the}, pp.~535--539, 2005.
 
 \bibitem{murch2004autonomic}
 R.~Murch, {\em Autonomic computing}.
@@ -778,17 +851,20 @@ J.~Buisson, {\em Adaptation dynamique de programmes et composants
 \newblock PhD thesis, Th{\`e}se de doctorat, INSA de Rennes, 2006.
 
 \bibitem{A-SLO-A}
-S.~Frey, C.~L\"uthje, R.~Teckelmann, and C.~Reich, ``Adaptable service level
-  objective agreement (a-slo-a) for cloud services,'' 2013.
+S.~Frey, C.~L\"uthje, R.~Teckelmann, and C.~Reich, ``{Adaptable Service Level
+  Objective Agreement (A-SLO-A) for Cloud Services},'' {\em CLOSER 2013, pp.
+  457-462, SciTePress}, 2013.
+\newblock ISBN 978-989-8565-52-5.
 
 \bibitem{Anomaly2}
-A.~Patcha and J.-M. Park, {\em An overview of anomaly detection techniques:
-  Existing solutions and latest technological trends}.
-\newblock Computer Networks, Volume 51, Number 21, 2007.
+A.~Patcha and J.-M. Park, ``An overview of anomaly detection techniques:
+  Existing solutions and latest technological trends,'' {\em Computer Networks,
+  Volume 51, Number 21}, pp.~3448--3470, 2007.
 
 \bibitem{Fuzzy}
 S.~Frey, C.~L\"uthje, V.~Huwwa, and C.~Reich, ``Fuzzy controled qos for
-  scalable cloud computing services,''
+  scalable cloud computing services,'' {\em CLOUD COMPUTING 2013, The Fourth
+  International Conference on Cloud Computing, GRIDs, and Virtualization}.
 \newblock 2013, pp. 150-155.
 
 \bibitem{Ganglia}
@@ -804,15 +880,18 @@ R.~Teckelmann, ``Service level objective agreements format zur adaption von
 B.~Andrew and B.~Peter, {\em Practical Statistics for Data Scientists - 50
   Essential Concepts}.
 \newblock Sebastopol: "O'Reilly Media, Inc.", 2017.
+\newblock ISBN 978-1-491-95293-1.
 
 \bibitem{weisberg2014applied}
 S.~Weisberg, {\em Applied Linear Regression}.
 \newblock Wiley Series in Probability and Statistics, Wiley, 2014.
+\newblock ISBN 9781118789551.
 
 \bibitem{montgomery2013introduction}
 D.~Montgomery, E.~Peck, and G.~Vining, {\em Introduction to Linear Regression
   Analysis}.
 \newblock Wiley Series in Probability and Statistics, Wiley, 2013.
+\newblock ISBN 9781118627365.
 
 \bibitem{Cortes:1995:SN:218919.218929}
 C.~Cortes and V.~Vapnik, ``Support-vector networks,'' {\em Mach. Learn.},
@@ -821,13 +900,16 @@ C.~Cortes and V.~Vapnik, ``Support-vector networks,'' {\em Mach. Learn.},
 \bibitem{Vapnik:1995:NSL:211359}
 V.~N. Vapnik, {\em The Nature of Statistical Learning Theory}.
 \newblock Berlin, Heidelberg: Springer-Verlag, 1995.
+\newblock ISBN 0-387-94559-8.
 
 \bibitem{rapidminer}
 {Rapidminer}, ``{Rapidminer Website}.''
 \newblock {https://rapidminer.com/} [Accessed: 25. 01. 2016].
 
 \bibitem{6799665}
-{\em An SLA-aware load balancing scheme for cloud datacenters}, Feb. 2014.
+C.-C. Li and K.~Wang, ``An sla-aware load balancing scheme for cloud
+  datacenters,'' {\em The International Conference on Information Networking
+  2014 (ICOIN2014)}, pp.~58--63, Feb. 2014.
 
 \bibitem{Prevost2011PredictionOC}
 J.~Prevost, K.~Nagothu, B.~T. Kelley, and M.~M. Jamshidi, ``Prediction of cloud
@@ -836,33 +918,40 @@ J.~Prevost, K.~Nagothu, B.~T. Kelley, and M.~M. Jamshidi, ``Prediction of cloud
   2011.
 
 \bibitem{6649686}
-{\em KSwSVR: A New Load Forecasting Method for Efficient Resources Provisioning
-  in Cloud}, June 2013.
+R.~{Hu}, J.~{Jiang}, G.~{Liu}, and L.~{Wang}, ``Kswsvr: A new load forecasting
+  method for efficient resources provisioning in cloud,'' {\em 2013 IEEE
+  International Conference on Services Computing}, pp.~120--127, June 2013.
 
 \bibitem{7194655}
-{\em Towards an Autonomic Auto-scaling Prediction System for Cloud Resource
-  Provisioning}, May 2015.
+A.~Y. {Nikravesh}, S.~A. {Ajila}, and C.~{Lung}, ``Towards an autonomic
+  auto-scaling prediction system for cloud resource provisioning,'' {\em 2015
+  IEEE/ACM 10th International Symposium on Software Engineering for Adaptive
+  and Self-Managing Systems}, pp.~35--45, May 2015.
 
 \bibitem{6567848}
-{\em Predicting cloud resource provisioning using machine learning techniques},
-  May 2013.
+A.~A. {Bankole} and S.~A. {Ajila}, ``Predicting cloud resource provisioning
+  using machine learning techniques,'' {\em 2013 26th IEEE Canadian Conference
+  on Electrical and Computer Engineering (CCECE)}, pp.~1--4, May 2013.
 
 \bibitem{Korte2008}
-{\em Bin-Packing}.
-\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2008.
+``Bin-packing,'' {\em Kombinatorische Optimierung: Theorie und Algorithmen},
+  pp.~485--502, 2008.
+\newblock ISBN 978-3-540-76919-4.
 
 \bibitem{Wilson_1984}
-L.~B. Wilson, ``{ALGORITHMS}, robert sedgewick, addison-wesley publishing
-  company, 1983. no. of pages: 552. price: {\textsterling}13$\cdotp$95,'' {\em
-  Software: Practice and Experience}, vol.~14, pp.~501--502, May 1984.
+R.~Sedgewick, ``{ALGORITHMS, Addison-Wesley Publishing Company, 1983. No. of
+  pages: 552.},'' {\em Software: Practice and Experience}, vol.~14,
+  pp.~501--502, May 1984.
 
 \bibitem{10.1007/978-3-540-77918-6_18}
-C.~Kaklamanis and M.~Skutella, eds., {\em Minimum Weighted Sum Bin Packing},
-  (Berlin, Heidelberg), Springer Berlin Heidelberg, 2008.
+L.~Epstein and A.~Levin, ``Minimum weighted sum bin packing,'' {\em
+  Approximation and Online Algorithms}, pp.~218--231, 2008.
+\newblock ISBN 978-3-540-77918-6.
 
 \bibitem{10.1007/978-3-642-13731-0_24}
-H.~Kaplan, ed., {\em Vector Bin Packing with Multiple-Choice}, (Berlin,
-  Heidelberg), Springer Berlin Heidelberg, 2010.
+B.~Patt-Shamir and D.~Rawitz, {\em Vector Bin Packing with Multiple-Choice}.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2010.
+\newblock ISBN 978-3-642-13731-0.
 
 \bibitem{Raidl:1999:MCP:335527.335530}
 G.~R. Raidl, ``The multiple container packing problem: A genetic algorithm

@@ -81,6 +81,6 @@
 \contentsline {section}{\numberline {7.2}Lessons Learned}{88}{section.7.2}
 \contentsline {section}{\numberline {7.3}Future Work}{89}{section.7.3}
 \contentsline {chapter}{References}{91}{chapter*.18}
-\contentsline {chapter}{Appendix A - Published Papers \& Outputs}{105}{chapter*.19}
-\contentsline {paragraph}{Conference Papers}{105}{section*.20}
-\contentsline {paragraph}{Research Reports}{105}{section*.21}
+\contentsline {chapter}{Appendix A - Published Papers \& Outputs}{107}{chapter*.19}
+\contentsline {paragraph}{Conference Papers}{107}{section*.20}
+\contentsline {paragraph}{Research Reports}{107}{section*.21}

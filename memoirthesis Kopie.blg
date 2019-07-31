@@ -1,16 +1,14 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: memoirthesis Kopie.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: memoirthesis Kopie.aux
 The style file: ieeetr.bst
 Database file #1: BibNew_clean.bib
 Warning--entry type for "ISOnew" isn't style-file defined
---line 910 of file BibNew_clean.bib
+--line 907 of file BibNew_clean.bib
 Warning--entry type for "EC2" isn't style-file defined
---line 1871 of file BibNew_clean.bib
+--line 1877 of file BibNew_clean.bib
 Warning--entry type for "Gartner" isn't style-file defined
---line 2012 of file BibNew_clean.bib
+--line 2018 of file BibNew_clean.bib
 Warning--entry type for "haizea" isn't style-file defined
---line 2019 of file BibNew_clean.bib
+--line 2025 of file BibNew_clean.bib
 Warning--I didn't find a database entry for "Lambea2011"
 Warning--I didn't find a database entry for "Folding@Home"
 Warning--I didn't find a database entry for "ATLAS@Home"
@@ -18,85 +16,15 @@ Warning--I didn't find a database entry for "Einstein@Home"
 Warning--I didn't find a database entry for "GartnerAPM"
 Warning--I didn't find a database entry for "MemBrain"
 Warning--I didn't find a database entry for "[6164809]"
-Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
-while executing---line 969 of file ieeetr.bst
-Warning--empty publisher in 5557978
-Warning--can't use both author and editor fields in Wieder2011
+Warning--empty publisher in Gillett:1997:SIC:275025.275027
 Warning--empty journal in CloudConcerns
-Warning--empty publisher in 6409059
-Warning--empty journal in sun2005role
-Warning--empty journal in gangadharan2007service
 Warning--empty school in Berger05
-Warning--empty journal in Fu:2006:GSG:1170138.1170724
-Warning--empty publisher in menasce2002load
-Warning--empty journal in 5610586
-Warning--empty journal in Spillner2009
 Warning--empty publisher in Patel2009ServiceLA
-Warning--empty journal in Kubert:2011:RIW:1967428.1967444
-Warning--empty publisher in 6225938
-Warning--empty publisher in 5739040
-Warning--empty publisher in 6076508
 Warning--empty journal in Liu2011
-Warning--empty publisher in prevost2011prediction
-Warning--empty journal in li2014sla
-Warning--empty journal in hu2013kswsvr
-Warning--empty publisher in bankole2013predicting
-Warning--empty journal in imam2011neural
-Warning--empty journal in 6114435
-Warning--empty journal in 5175897
-Warning--empty publisher in emeakaroha2010low
-Warning--empty journal in 5547150
+Warning--empty journal in haizea2
 Warning--can't use both author and editor fields in 10.1007/978-3-642-22709-7_46
-Warning--empty publisher in 6212007
-Warning--empty journal in 6150077
 Warning--empty journal in horn2001autonomic
-Warning--empty publisher in fei2005design
-Warning--empty journal in zhao2009survey
-Warning--empty journal in 5463688
-Warning--empty journal in sterritt2005autonomic
-Warning--empty journal in A-SLO-A
-Warning--empty journal in Fuzzy
 Warning--empty year in Fuzzy
-Warning--empty author and editor in Korte2008
-You've used 181 entries,
-            1876 wiz_defined-function locations,
-            1454 strings with 35701 characters,
-and the built_in function-call counts, 36779 in all, are:
-= -- 3625
-> -- 1420
-< -- 1
-+ -- 564
-- -- 383
-* -- 2235
-:= -- 5193
-add.period$ -- 260
-call.type$ -- 181
-change.case$ -- 119
-chr.to.int$ -- 0
-cite$ -- 219
-duplicate$ -- 1789
-empty$ -- 3836
-format.name$ -- 383
-if$ -- 9022
-int.to.chr$ -- 0
-int.to.str$ -- 181
-missing$ -- 153
-newline$ -- 641
-num.names$ -- 174
-pop$ -- 834
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 1084
-stack$ -- 0
-substring$ -- 1758
-swap$ -- 549
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 38
-while$ -- 340
-width$ -- 184
-write$ -- 1611
-(There was 1 error message)
+Warning--empty author in Korte2008
+Warning--can't use both author and editor fields in 10.1007/978-3-642-13731-0_24
+(There were 22 warnings)
