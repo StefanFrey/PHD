@@ -381,14 +381,15 @@
 \import{chapters/chapter3/}{Chapter3.tex}
 \clearemptydoublepage
 
+\import{chapters/chapter6/}{Chapter6.tex}
+\clearemptydoublepage
+
 \import{chapters/chapter4/}{Chapter4.tex}
 \clearemptydoublepage
 
 \import{chapters/chapter5/}{Chapter5.tex}
 \clearemptydoublepage
 
-\import{chapters/chapter6/}{Chapter6.tex}
-\clearemptydoublepage
 
 \import{chapters/chapter7/}{Chapter7.tex}
 \clearemptydoublepage
@@ -400,18 +401,20 @@
 %\clearemptydoublepage
 %\import{chapters/appendices/}{app0B.tex}
 %\clearemptydoublepage
-%
+
+\renewcommand{\bibname}{References}
+
 % Apparently the guidelines don't say anything about citations or
 % bibliography styles so I guess we can use anything.
 \backmatter
 %\bibliographystyle{siam}
-\bibliographystyle{alphadin}
-%\bibliographystyle{plain}
+%\bibliographystyle{alphadin}
+\bibliographystyle{ieeetr}
 %\bibliographystyle{acm}
 
 
 %\refstepcounter{chapter}
-\bibliography{BibNew}
+\bibliography{BibNew_clean}
 \clearemptydoublepage
 %
 % Add index
