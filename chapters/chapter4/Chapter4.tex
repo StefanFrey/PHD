@@ -4,16 +4,16 @@
 \label{ASLAMaaSApproach} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 \section{Autonomic Computing}
-The ever increasing complexity, multi dimensionality and abstraction of modern computer systems make it difficult for users to utilize, maintain and fully understand them. With this issue in mind, IBM \cite{horn2001autonomic} developed a concept for autonomous systems and coined the phrase Autonomic Computing. According to the IBMs vision autonomic behaviour can be characterised by key capabilities such as self-diagnosis, self-configuration, self-adaption and self-healing, which are all focusing on the continuous executability of a computer system without the need of user interaction. There are several definitions for autonomic computing, following the most common ones are stated:
+The ever increasing complexity, multi dimensionality and abstraction of modern computer systems make it difficult for users to utilize, maintain and fully understand them. With this issue in mind, IBM  \cite{horn2001autonomic} developed a concept for autonomous systems and coined the phrase Autonomic Computing. According to the IBMs vision autonomic behaviour can be characterised by key capabilities such as self-diagnosis, self-configuration, self-adaption and self-healing, which are all focusing on the continuous executability of a computer system without the need of user interaction. There are several definitions for autonomic computing, following the most common ones are stated:
 
 \begin{itemize} 
-\item 'The vision of autonomic computing is to create software through self-* properties' \cite{sterritt2005autonomic}.
+\item 'The vision of autonomic computing is to create software through self-* properties'  \cite{sterritt2005autonomic}.
 \item 'Autonomic computing is the ability to manage your computing enterprise
 through hardware and software that automatically and dynamically responds to the
-requirements of your business' \cite{murch2004autonomic}.
+requirements of your business'  \cite{murch2004autonomic}.
 \item 'Autonomic computing is the ability to manage your computing enterprise
 through hardware and software that automatically and dynamically responds to the
-requirements of your business' \cite{murch2004autonomic}.
+requirements of your business'  \cite{murch2004autonomic}.
 \end{itemize} 
 
 The phrase autonomic is derived from human biology, where the autonomic nervous system keeps track of the bodies vital functions such as heartbeat, temperature and breathing  while working in the background. However, there are main differences between the human body and autonomic systems. Firstly most of the tasks of the autonomic nervous system can't be controlled, where as the tasks of an autonomic systems are based on human written policies.
@@ -23,7 +23,7 @@ To make these policies work the system has the need for sensing the state of the
 \begin{center}
 \includegraphics[width=0.5\textwidth]{chapters/chapter4/fig/mape2.png}
 \end{center}
-\caption{Autonomic Control Loop (MAPE-K) after \cite{kephart2003vision}}
+\caption{Autonomic Control Loop (MAPE-K)  \cite{kephart2003vision}}
 \label{fig:SLA_Structure}
 \end{figure}
 
@@ -37,7 +37,7 @@ various methods of monitoring can be used, such as push or pull systems or agent
 \item \textbf{Execution} runs these adaptations and adjustments. Therefore the execution of the system is altered and the adjustments are made. Afterwards the loop starts again.
 \end{itemize} 
 
-The Dynaco adaptation model proposes a similar approach to the MAPE for distributed application by leveraging component-based design \citep{buisson2005dynamic} \citep{buisson2006adaptation}. Autonomic computing aims to faciliate self-management of complex systems consisting of various components. Autonomic computing systems involve service-oriented technologies, agent technologies, adaptive control theory, machine learning, optimization theory, and many more \citep{fei2005design} \citep{zhao2009survey}. 
+The Dynaco adaptation model proposes a similar approach to the MAPE for distributed application by leveraging component-based design  \citep{buisson2005dynamic}  \citep{buisson2006adaptation}. Autonomic computing aims to faciliate self-management of complex systems consisting of various components. Autonomic computing systems involve service-oriented technologies, agent technologies, adaptive control theory, machine learning, optimization theory, and many more  \citep{fei2005design}  \citep{zhao2009survey}. 
  
 The aim of introducing this paradigm in this thesis, is to achieve autonomic behaviour in our proposed Cloud management infrastructure, whereby appropriate actions are taken towards the enforcement of SLAs and performance metrics.
 
@@ -48,12 +48,12 @@ This report has identified the requirement for cloud computing infrastructures t
 However, to address the identified problems within the current cloud computing landscape a system is needed which supports dynamic and fine grained quality assurance, while being flexible enough to cope with the frequently changing infrastructure. And automation of the underlying SLA management process, which includes creation,  monitoring, reporting, control and adaption. Especially for this more research in the area of behaviour analysis, prediction and anomaly detection is necessary.
 
 \section{Autonomic SLA Management Architecture}
-To empower cloud users with the possibility of  managed cloud service quality and simultaneously increase the trust, reliability and appear of cloud computing for business use, this research proposes the concept of autonomic continuous dynamic SLA management for clouds, which will be realized by the Autonomic SLA Management as a Service (ASLAMaaS) architecture. It is build upon the IBM developed autonomic manager concept MAPE-K \cite{MAPE-K} (Monitor-Analysis-Plan-Execute-Knowledge).
+To empower cloud users with the possibility of  managed cloud service quality and simultaneously increase the trust, reliability and appear of cloud computing for business use, this research proposes the concept of autonomic continuous dynamic SLA management for clouds, which will be realized by the Autonomic SLA Management as a Service (ASLAMaaS) architecture. It is build upon the IBM developed autonomic manager concept MAPE-K  \cite{MAPE-K} (Monitor-Analysis-Plan-Execute-Knowledge).
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=3in]{chapters/chapter4/fig/MAPE.PNG}
-\caption{Autonomic Computing Control Loop from \cite{MAPE-K}}
+\caption{Autonomic Computing Control Loop from  \cite{MAPE-K}}
 \label{fig_MAPE}
 \end{figure}
 
@@ -135,7 +135,7 @@ Based on the provider accepted KPIs meaningful margins have to be calculated as 
 
 Additionally the utilization, expected usage and performance data of the infrastructure shall be matched together with business concerns and the strategic focus of the provider to create a dynamic pricing model for the offered services and the corresponding SLAs. If, for example an infrastructure constantly delivers a response-time of below 170ms and only a few fluctuations of users are expected the reasoning model may set the lower margin for this KPI to 200ms or slightly above. Since it is common practice to make prices not directly on each possible service level, but to create pricing categories, such as low, medium, high or silver, gold platinum the delivered price model shall then create these pricing categories. This should enable a simpler management of the managed service levels and makes the gradation of customers easier for the system.
   
-In order to autonomously conduct this process the SLA templates and the finished filled out SLAs used must be represented in a machine processable form. For this a machine readable agreement description language shall be used. The Adaptable Service Level Objective Agreement (A-SLO-A) model \cite{A-SLO-A}, which is based on the SLA* model, enables the use of dynamic and constant agreement alteration and therefore is will be used as the basis of the description of SLAs in ASLAMaaS.
+In order to autonomously conduct this process the SLA templates and the finished filled out SLAs used must be represented in a machine processable form. For this a machine readable agreement description language shall be used. The Adaptable Service Level Objective Agreement (A-SLO-A) model  \cite{A-SLO-A}, which is based on the SLA* model, enables the use of dynamic and constant agreement alteration and therefore is will be used as the basis of the description of SLAs in ASLAMaaS.
 
 
 \section{Prediction, Detection and Management of Service Levels} \label{SLA prediction}
@@ -146,11 +146,11 @@ In order to autonomously conduct this process the SLA templates and the finished
 In order to guarantee the QoS of a provided service, it is necessary for particular things to be monitored. Firstly, the performance of the infrastructure must be monitored since dependencies arise in a multi tenancy environment with shared resources. Secondly, the use of cloud services usually varies greatly and thus the need of resources fluctuates likewise. To cope with this changing needs and to achieve SLA  compliance the provided resources must be adjusted. If one could predict the usage of a service, looking ahead further than the infrastructure provisioning delay time, one could guarantee the QoS for that specific service. Therefore prediction and detection techniques should be 
 
 To detect unforeseen events, the cloud components behaviour is constantly monitored and analysed. Therefore events from each of the CMS and monitoring agents are processed to enable anomalous behaviour detection. 
-To determine, which anomaly detection algorithms are suited best, an evaluation has to be done. The algorithms considered include machine learning approaches like neural networks or Markov models, statistical methods, outlier detection and some specialized algorithms \cite{Anomaly2}. %The main questions which need to be clarified by this research stage are:
+To determine, which anomaly detection algorithms are suited best, an evaluation has to be done. The algorithms considered include machine learning approaches like neural networks or Markov models, statistical methods, outlier detection and some specialized algorithms  \cite{Anomaly2}. %The main questions which need to be clarified by this research stage are:
 
 The Plan part of the MAPE-K concept in this module creates the action plans for the infrastructure, the CMS, the SLA Manager itself and additionally delivers adjustments directly back into the SLA Editor, where for example the margins could be readjusted to cope with the changes. Thus this the SLA templates and the corresponding KPI margins are always complaint with the actual performance of the cloud system. The action plans result in adaptation of the cloud infrastructure, like for example if the stated response-time inside a certain SLA tends to be broken the SLA manager can instruct the virtual network agent to re-route the traffic if the problem is network dependent. In case of this problem related to overloaded CPU or virtual instances the SLA Manager could start new instances or allocate more CPU cores.
 
-The various methods to manage the QoS parameters have to be model individually and tested about their suitability. A sample for the regulation of the KPI response-time can be found at Frey et al. \cite{Fuzzy}. There scalable cloud services have been started and stopped based on a fuzzy control set. This and other similar control mechanisms enable the Execute part to adapt the infrastructure and the services so that SLA violations can be avoided and the QoS is guaranteed. Within both MAPE-K loops the Knowledge consist mainly of the historic data about the services, the SLAs and the cloud environment, which was measured continuously and expert knowledge in the form of best practices and empirical values as well as strategic business plans. %Techniken zur Prognose!!!!
+The various methods to manage the QoS parameters have to be model individually and tested about their suitability. A sample for the regulation of the KPI response-time can be found at Frey et al.  \cite{Fuzzy}. There scalable cloud services have been started and stopped based on a fuzzy control set. This and other similar control mechanisms enable the Execute part to adapt the infrastructure and the services so that SLA violations can be avoided and the QoS is guaranteed. Within both MAPE-K loops the Knowledge consist mainly of the historic data about the services, the SLAs and the cloud environment, which was measured continuously and expert knowledge in the form of best practices and empirical values as well as strategic business plans. %Techniken zur Prognose!!!!
 
 %\section{Evaluation of ASLAMaaS}
 %During and following the development of the ASLAMaaS prototype, the sub and complete system will be evaluated due to its performance and SLA compliance. For performance, experiments with increasing amounts of VMs (10,50,100,...) will be developed to show that the ASLAMaaS approach is scalable and can cope with rising dependencies. Further investigation will be done to clarify the following questions: How accurate is the generation of SLA templates based on the corresponding infrastructure data for the margins? How well is the prediction suited to foresee mutual influences of VM performance?  Can the QoS of the cloud services and the reliability be improved beyond business requirements ?

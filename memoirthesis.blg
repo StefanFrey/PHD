@@ -2,99 +2,234 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: memoirthesis.aux
 The style file: siam.bst
-Database file #1: Bibliography.bib
-Warning--entry type for "slasoi2011" isn't style-file defined
---line 425 of file Bibliography.bib
-Warning--entry type for "slasoisrc" isn't style-file defined
---line 434 of file Bibliography.bib
-Warning--entry type for "slasoiwiki" isn't style-file defined
---line 443 of file Bibliography.bib
-Warning--entry type for "ASLAMaaS" isn't style-file defined
---line 462 of file Bibliography.bib
-Warning--entry type for "Gartner" isn't style-file defined
---line 513 of file Bibliography.bib
-Warning--entry type for "rackspace15" isn't style-file defined
---line 521 of file Bibliography.bib
-Warning--entry type for "icloud" isn't style-file defined
---line 529 of file Bibliography.bib
-Warning--entry type for "crisp" isn't style-file defined
---line 537 of file Bibliography.bib
-Warning--entry type for "EC2SLA" isn't style-file defined
---line 545 of file Bibliography.bib
-Warning--entry type for "CloudSLAwhite" isn't style-file defined
---line 553 of file Bibliography.bib
-You're missing a field name---line 878 of file Bibliography.bib
- : 
- : %% Author = {Contabo},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+I found no \bibdata command---while reading file memoirthesis.aux
+Warning--I didn't find a database entry for "ASLAMaaS"
+Warning--I didn't find a database entry for "NISTArch"
+Warning--I didn't find a database entry for "gart19"
+Warning--I didn't find a database entry for "CloudSec"
+Warning--I didn't find a database entry for "Gartner"
+Warning--I didn't find a database entry for "gartnercc18"
+Warning--I didn't find a database entry for "NIST"
+Warning--I didn't find a database entry for "kephart2003vision"
+Warning--I didn't find a database entry for "MAPE-K"
+Warning--I didn't find a database entry for "Lambea2011"
+Warning--I didn't find a database entry for "BITKOM19"
+Warning--I didn't find a database entry for "Dropbox"
+Warning--I didn't find a database entry for "OneDrive"
+Warning--I didn't find a database entry for "GoogleDrive"
+Warning--I didn't find a database entry for "AWS"
+Warning--I didn't find a database entry for "Azure"
+Warning--I didn't find a database entry for "IDC"
+Warning--I didn't find a database entry for "DMTF2010"
+Warning--I didn't find a database entry for "JTC"
+Warning--I didn't find a database entry for "EC2SLA"
+Warning--I didn't find a database entry for "CloudSLAwhite"
+Warning--I didn't find a database entry for "Baset:2012:CSP:2331576.2331586"
+Warning--I didn't find a database entry for "meaning"
+Warning--I didn't find a database entry for "Ludwig03WSLA"
+Warning--I didn't find a database entry for "5557978"
+Warning--I didn't find a database entry for "Wieder2011"
+Warning--I didn't find a database entry for "4755149"
+Warning--I didn't find a database entry for "TheBigSwitch"
+Warning--I didn't find a database entry for "EC2"
+Warning--I didn't find a database entry for "MIT-TechRev"
+Warning--I didn't find a database entry for "Gillett:1997:SIC:275025.275027"
+Warning--I didn't find a database entry for "Informs"
+Warning--I didn't find a database entry for "GuideToCC"
+Warning--I didn't find a database entry for "VM"
+Warning--I didn't find a database entry for "BITKOM"
+Warning--I didn't find a database entry for "Juniper"
+Warning--I didn't find a database entry for "rackspace"
+Warning--I didn't find a database entry for "Googlecompute"
+Warning--I didn't find a database entry for "GoogleAppEngine"
+Warning--I didn't find a database entry for "GoogleApps"
+Warning--I didn't find a database entry for "GoogleDocs"
+Warning--I didn't find a database entry for "Office365"
+Warning--I didn't find a database entry for "Salesforce"
+Warning--I didn't find a database entry for "CloudChallenges"
 Warning--I didn't find a database entry for "Folding@Home"
 Warning--I didn't find a database entry for "ATLAS@Home"
 Warning--I didn't find a database entry for "Einstein@Home"
-Warning--I didn't find a database entry for "Lambea2011"
+Warning--I didn't find a database entry for "Cloud360"
+Warning--I didn't find a database entry for "CCbasics"
+Warning--I didn't find a database entry for "CloudConcerns"
+Warning--I didn't find a database entry for "6409059"
+Warning--I didn't find a database entry for "Zissis2012583"
+Warning--I didn't find a database entry for "AWSprice"
+Warning--I didn't find a database entry for "Contabo"
+Warning--I didn't find a database entry for "ITILweb"
+Warning--I didn't find a database entry for "SLAEntwurf"
+Warning--I didn't find a database entry for "sun2005role"
+Warning--I didn't find a database entry for "hasselmeyer2007negotiating"
+Warning--I didn't find a database entry for "gangadharan2007service"
+Warning--I didn't find a database entry for "scholderer2011management"
+Warning--I didn't find a database entry for "Berger05"
+Warning--I didn't find a database entry for "RW00"
+Warning--I didn't find a database entry for "Bourne"
+Warning--I didn't find a database entry for "SC38StudyGroup2011"
+Warning--I didn't find a database entry for "Kearney2011b"
+Warning--I didn't find a database entry for "slasoi2011"
+Warning--I didn't find a database entry for "KPI"
+Warning--I didn't find a database entry for "ISOnew"
+Warning--I didn't find a database entry for "Experton"
+Warning--I didn't find a database entry for "wsla"
+Warning--I didn't find a database entry for "rackspace15"
+Warning--I didn't find a database entry for "ASLAMaaSDoku"
+Warning--I didn't find a database entry for "horn2001autonomic"
+Warning--I didn't find a database entry for "sterritt2005autonomic"
+Warning--I didn't find a database entry for "murch2004autonomic"
+Warning--I didn't find a database entry for "buisson2005dynamic"
+Warning--I didn't find a database entry for "buisson2006adaptation"
+Warning--I didn't find a database entry for "fei2005design"
+Warning--I didn't find a database entry for "zhao2009survey"
+Warning--I didn't find a database entry for "A-SLO-A"
+Warning--I didn't find a database entry for "Anomaly2"
+Warning--I didn't find a database entry for "Fuzzy"
+Warning--I didn't find a database entry for "Ganglia"
+Warning--I didn't find a database entry for "Teckelmann2012"
 Warning--I didn't find a database entry for "MemBrain"
+Warning--I didn't find a database entry for "datascience2017"
+Warning--I didn't find a database entry for "weisberg2014applied"
+Warning--I didn't find a database entry for "montgomery2013introduction"
+Warning--I didn't find a database entry for "Cortes:1995:SN:218919.218929"
+Warning--I didn't find a database entry for "Vapnik:1995:NSL:211359"
+Warning--I didn't find a database entry for "rapidminer"
+Warning--I didn't find a database entry for "6799665"
+Warning--I didn't find a database entry for "Prevost2011PredictionOC"
+Warning--I didn't find a database entry for "6649686"
+Warning--I didn't find a database entry for "7194655"
+Warning--I didn't find a database entry for "6567848"
+Warning--I didn't find a database entry for "[6164809]"
+Warning--I didn't find a database entry for "Korte2008"
+Warning--I didn't find a database entry for "Wilson_1984"
+Warning--I didn't find a database entry for "10.1007/978-3-540-77918-6_18"
+Warning--I didn't find a database entry for "10.1007/978-3-642-13731-0_24"
+Warning--I didn't find a database entry for "Raidl:1999:MCP:335527.335530"
+Warning--I didn't find a database entry for "DBLP:conf/mascots/2000"
+Warning--I didn't find a database entry for "Fu:2006:GSG:1170138.1170724"
+Warning--I didn't find a database entry for "Wood:2009:SBG:1663647.1663710"
+Warning--I didn't find a database entry for "ward2014observing"
+Warning--I didn't find a database entry for "fatema2014survey"
+Warning--I didn't find a database entry for "aceto2013cloud"
+Warning--I didn't find a database entry for "saqib2017cloud"
+Warning--I didn't find a database entry for "CSA3.0"
+Warning--I didn't find a database entry for "spring2011monitoring1"
+Warning--I didn't find a database entry for "spring2011monitoring2"
+Warning--I didn't find a database entry for "menasce2002load"
 Warning--I didn't find a database entry for "GartnerAPM"
-Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
-while executing---line 991 of file siam.bst
-Name 1 in "T. Mather, S. Kumaraswamy, and S. Latif" has a comma at the end for entry CloudSec
-while executing---line 991 of file siam.bst
-Warning--to sort, need author or key in Contabo
-Warning--to sort, need author or key in slasoi2011
-Warning--to sort, need editor, organization, or key in DBLP:conf/mascots/2000
-Warning--to sort, need author or key in slasoiwiki
-Warning--to sort, need author or key in slasoisrc
-Warning--empty title in EC2
-Warning--empty booktitle in EC2
-Warning--empty publisher in EC2
-Warning--empty title in ISOnew
-Warning--empty booktitle in ISOnew
-Warning--empty publisher in ISOnew
-Warning--empty year in Fuzzy
-Name 1 in "ISO/IEC SC 38 Study Group," has a comma at the end for entry JTC
-while executing---line 1034 of file siam.bst
-Warning--can't use both author and editor fields in Wieder2011
-Warning--empty journal in horn2001autonomic
-Name 1 in "T. Mather, S. Kumaraswamy, and S. Latif" has a comma at the end for entry CloudSec
-while executing---line 1034 of file siam.bst
-You've used 122 entries,
+Warning--I didn't find a database entry for "5610586"
+Warning--I didn't find a database entry for "Spillner2009"
+Warning--I didn't find a database entry for "Patel2009ServiceLA"
+Warning--I didn't find a database entry for "Kubert:2011:RIW:1967428.1967444"
+Warning--I didn't find a database entry for "6225938"
+Warning--I didn't find a database entry for "5739040"
+Warning--I didn't find a database entry for "6076508"
+Warning--I didn't find a database entry for "Liu2011"
+Warning--I didn't find a database entry for "Khasnabish2010"
+Warning--I didn't find a database entry for "kouki2014language"
+Warning--I didn't find a database entry for "fosii"
+Warning--I didn't find a database entry for "Brandic:2009:VFE:1616056.1616063"
+Warning--I didn't find a database entry for "texo2011"
+Warning--I didn't find a database entry for "Lawrence:2010:USL:2050107.2050112"
+Warning--I didn't find a database entry for "slasoiwiki"
+Warning--I didn't find a database entry for "slasoisrc"
+Warning--I didn't find a database entry for "uriarte2014slac"
+Warning--I didn't find a database entry for "SLA-Ready"
+Warning--I didn't find a database entry for "LapedesFarber87"
+Warning--I didn't find a database entry for "Hornik1989359"
+Warning--I didn't find a database entry for "Hornik1991251"
+Warning--I didn't find a database entry for "Zhang20011183"
+Warning--I didn't find a database entry for "Zhang199835"
+Warning--I didn't find a database entry for "neural1"
+Warning--I didn't find a database entry for "Langella2010328"
+Warning--I didn't find a database entry for "Buizza"
+Warning--I didn't find a database entry for "Roebber"
+Warning--I didn't find a database entry for "Pattie1996151"
+Warning--I didn't find a database entry for "Park76685"
+Warning--I didn't find a database entry for "Hippert910780"
+Warning--I didn't find a database entry for "Bodyanskiy20061357"
+Warning--I didn't find a database entry for "McAdam2005848"
+Warning--I didn't find a database entry for "Kaastra1996215"
+Warning--I didn't find a database entry for "Guresen201110389"
+Warning--I didn't find a database entry for "Vukicevic2014"
+Warning--I didn't find a database entry for "Arizmendi20145296"
+Warning--I didn't find a database entry for "prevost2011prediction"
+Warning--I didn't find a database entry for "li2014sla"
+Warning--I didn't find a database entry for "hu2013kswsvr"
+Warning--I didn't find a database entry for "bankole2013predicting"
+Warning--I didn't find a database entry for "imam2011neural"
+Warning--I didn't find a database entry for "6114435"
+Warning--I didn't find a database entry for "PANDA2015176"
+Warning--I didn't find a database entry for "tlda"
+Warning--I didn't find a database entry for "Ga-grid-2"
+Warning--I didn't find a database entry for "riskheuristik"
+Warning--I didn't find a database entry for "4heurisitken"
+Warning--I didn't find a database entry for "ga-basedtask"
+Warning--I didn't find a database entry for "deadlineawarecloud"
+Warning--I didn't find a database entry for "cloudbursting"
+Warning--I didn't find a database entry for "adaptablecloudscheduling"
+Warning--I didn't find a database entry for "haizea"
+Warning--I didn't find a database entry for "twolevel"
+Warning--I didn't find a database entry for "haizea2"
+Warning--I didn't find a database entry for "haizea1"
+Warning--I didn't find a database entry for "haizea3"
+Warning--I didn't find a database entry for "haizea4"
+Warning--I didn't find a database entry for "boniface2007dynamic"
+Warning--I didn't find a database entry for "5175897"
+Warning--I didn't find a database entry for "emeakaroha2010low"
+Warning--I didn't find a database entry for "articleEmeakaroha2013"
+Warning--I didn't find a database entry for "articleQoSMONaas"
+Warning--I didn't find a database entry for "EMEAKAROHA20121017"
+Warning--I didn't find a database entry for "5547150"
+Warning--I didn't find a database entry for "10.1007/978-3-642-22709-7_46"
+Warning--I didn't find a database entry for "Dastjerdi:2012:DOA:2275356.2275360"
+Warning--I didn't find a database entry for "6212007"
+Warning--I didn't find a database entry for "6150077"
+Warning--I didn't find a database entry for "WANG20121135"
+Warning--I didn't find a database entry for "7430360"
+Warning--I didn't find a database entry for "inproceedingshu2009"
+Warning--I didn't find a database entry for "Casalicchio:2013:ARP:2494621.2494623"
+Warning--I didn't find a database entry for "5463688"
+Warning--I didn't find a database entry for "brandic2009towards"
+You've used 0 entries,
             2030 wiz_defined-function locations,
-            1161 strings with 22837 characters,
-and the built_in function-call counts, 36646 in all, are:
-= -- 3300
-> -- 1550
-< -- 1
-+ -- 637
-- -- 501
-* -- 2537
-:= -- 5682
-add.period$ -- 168
-call.type$ -- 122
-change.case$ -- 576
+            791 strings with 7432 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 136
-duplicate$ -- 1718
-empty$ -- 3159
-format.name$ -- 501
-if$ -- 7898
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 122
-missing$ -- 96
-newline$ -- 415
-num.names$ -- 233
-pop$ -- 887
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 495
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1322
+skip$ -- 1
 stack$ -- 0
-substring$ -- 2002
-swap$ -- 581
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 445
-warning$ -- 14
-while$ -- 351
-width$ -- 125
-write$ -- 1070
-(There were 5 error messages)
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)
