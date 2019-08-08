@@ -13,6 +13,13 @@ F.~Liu, J.~Tong, J.~Mao, R.~B. Bohn, J.~V. Messina, M.~L. Badger, and D.~M.
 \newblock {http://www.nist.gov/manuscript-publication-search.cfm?=909505
   [Accessed: 24. 06. 2014]}.
 
+\bibitem{gart19}
+Gartner, ``{Worldwide Public Cloud Revenue to Grow 17.3 Percent in 2019},''
+  2018.
+\newblock
+  https://www.gartner.com/en/newsroom/press-releases/2018-09-12-gartner-forecasts-worldwide-public-cloud-revenue-to-grow-17-percent-in-2019
+  [Accessed: 02. 05. 2019].
+
 \bibitem{CloudSec}
 T.~Mather, S.~Kumaraswamy, and S.~Latif, {\em Cloud Security and Privacy: An
   Enterprise Perspective on Risks and Compliance}.
@@ -79,13 +86,6 @@ Microsoft, ``{Azure Cloud Platform Website},'' 2014.
 \newblock
   {http://cordis.europa.eu/fp7/ict/ssai/docs/study45-d2-interim-report.pdf}
   [Accessed: 12. 08. 2014].
-
-\bibitem{gart19}
-Gartner, ``{Worldwide Public Cloud Revenue to Grow 17.3 Percent in 2019},''
-  2018.
-\newblock
-  https://www.gartner.com/en/newsroom/press-releases/2018-09-12-gartner-forecasts-worldwide-public-cloud-revenue-to-grow-17-percent-in-2019
-  [Accessed: 02. 05. 2019].
 
 \bibitem{DMTF2010}
 {Distributed Management Task Force}, ``{Architecture for Managing Clouds},''
@@ -312,8 +312,8 @@ R.~Sturm, W.~Morris, and M.~Jander, {\em Foundations of Service Level
 {ISO/IEC JTC 1/SC 38 Study Group}, ``{Study Group Report on Cloud Computing},''
   tech. rep., {International Organization for Standardization}, 2011.
 \newblock
-  {http://isotc.iso.org/livelink/livelink/fetch/-8913189/8913214/8913373/Study{\_}Group{\_}on_Cloud{\_}Computing{\_}final{\_}report.pdf?nodeid=12096352&vernum=-2
-  } [Accessed: 08. 09. 2014].
+  {http://isotc.iso.org/livelink/livelink/fetch/-8913189/8913214/8913373/Study{\_}Group{\_}on{\_}Cloud{\_}
+  Computing{\_}final{\_}report.pdf } [Accessed: 08. 09. 2014].
 
 \bibitem{Kearney2011b}
 K.~T. Kearney, F.~Torelli, and C.~Kotsokalis, ``{SLA*: An Abstract Syntax for
